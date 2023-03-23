@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/home.css'
+import edu from '../assets/edu.jpg'
 import agua from '../assets/agua.jpeg'
 
 function Home() {
@@ -62,7 +63,7 @@ function Home() {
 
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" width="140" height="140" src={agua} alt="" />
+            <img class="rounded-circle" width="140" height="140" src={edu} alt="" />
             {/* <svg class="rounded-circle" width="140" height="140" xmlns="https://www.correio24horas.com.br/fileadmin/_processed_/c/3/csm_24102018_baz_sommelier_de_aguas_cred_divulgacao_shutterstock_1_aff62af31d.jpg" aria-label="Placeholder: 140x140" preserveAspectRatio="" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> */}
             <h2 class="fw-normal">Eduardo Paes</h2>
             <p>Prefeito da cidade do Rio de Janeiro.</p>
