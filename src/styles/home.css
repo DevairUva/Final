@@ -49,6 +49,7 @@ body {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  
 }
 
 /* Thin out the marketing headings */
@@ -152,4 +153,32 @@ body {
 .textCenterHome{
   text-align: center;
   margin-bottom: 50px;
+}
+
+.fw-normal{
+  padding-top: 20px;
+}
+
+.background{
+  background-image: linear-gradient(to right, #1E0252,#14093B);
+}
+
+.container-marketing{
+background-color: #fff;
+}
+
+.fundo{
+  margin: -40px;
+}
+
+.featurette-heading{
+  color:#18D5FF;
+}
+
+.lead{
+  color: #fff;
+}
+
+.featurette-divider2{
+background-color: #fff;
 }
