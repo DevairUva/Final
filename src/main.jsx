@@ -9,6 +9,7 @@ import {
 import Home from './components/Home';
 import Pesquisa from './components/Pesquisa';
 import Inscricao from './components/Inscricao';
+import Login from './components/Login';
 
 const router = createHashRouter(
   [
@@ -28,7 +29,11 @@ const router = createHashRouter(
         {
           path: '/inscricao',
           element: <Inscricao/>
-        }
+        },
+        {
+          path: '/login',
+          element: <Login/>
+        },
       ]
     },
   ]

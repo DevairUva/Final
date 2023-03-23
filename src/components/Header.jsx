@@ -43,8 +43,12 @@ function Header() {
               </ul>
             </div>
           </div>
+          <Link to='/inscricao' class="navbar-brand">DATA</Link>
           {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
-          <Link to='/inscricao' class="navbar-brand">INSCREVA-SE</Link>
+          <div>
+            <Link to='/inscricao' class="navbar-brand">Inscreva-se</Link>
+            <Link to='/login' class="navbar-brand">Login</Link>
+          </div>
         </div>
       </nav>
     </div>
