@@ -69,5 +69,5 @@ button:focus-visible {
 } */
 
 body{
-  height: 3632px;
+  max-height: 1500px;
 }

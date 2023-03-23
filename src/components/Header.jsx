@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'
+import '../styles/inscricao.css'
 
 function Header() {
   return (
@@ -43,7 +44,7 @@ function Header() {
             </div>
           </div>
           {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
-          <Link to='/pesquisa' class="navbar-brand">INSCREVA-SE</Link>
+          <Link to='/inscricao' class="navbar-brand">INSCREVA-SE</Link>
         </div>
       </nav>
     </div>

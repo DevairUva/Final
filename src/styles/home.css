@@ -140,11 +140,7 @@ body {
   color: red;
 }
 
-h1{
-  color: aqua;
-}
-
-.topo{
+.topoHome{
   margin-top: 8px;
   margin-bottom: 40px;
 }

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import Pesquisa from './components/Pesquisa';
+import Inscricao from './components/Inscricao';
 
 const router = createHashRouter(
   [
@@ -23,6 +24,10 @@ const router = createHashRouter(
         {
           path: "/pesquisa",
           element: <Pesquisa/>
+        },
+        {
+          path: '/inscricao',
+          element: <Inscricao/>
         }
       ]
     },
