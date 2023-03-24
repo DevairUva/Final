@@ -7,14 +7,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
+import login from '../assets/icon2.png'
 
 function Header() {
   return (
     <div>
-      <nav class="navbar bg-dark fixed-top" data-bs-theme="dark">
+      <nav class="navbar fixed-top" data-bs-theme="dark">
         <div class="navHeader">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">

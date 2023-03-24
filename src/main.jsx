@@ -10,6 +10,7 @@ import Home from './components/Home';
 import Pesquisa from './components/Pesquisa';
 import Inscricao from './components/Inscricao';
 import Login from './components/Login';
+import Teste from './components/teste';
 
 const router = createHashRouter(
   [
@@ -33,6 +34,10 @@ const router = createHashRouter(
         {
           path: '/login',
           element: <Login/>
+        },
+        {
+          path: '/teste',
+          element: <Teste/>
         },
       ]
     },

@@ -57,3 +57,15 @@
   align-items: center;
   width: 1500px;
 }
+
+.navbar{
+  background-color: #18D5FF;
+}
+
+.navbar-brand{
+  color: #14093B;
+}
+
+.navbar-toggler{
+color: #14093B;
+}
