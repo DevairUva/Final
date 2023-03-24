@@ -63,3 +63,12 @@
 .formLog{
   text-align: center;
 }
+
+.vermelho{
+  background-color: red;
+}
+
+.centroLogin{
+  display: grid;
+  justify-content: center;
+}
