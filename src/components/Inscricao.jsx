@@ -1,12 +1,13 @@
 import '../styles/inscricao.css'
 import agua from '../assets/agua.jpeg'
-import programador from '../assets/programador.jpg'
+import programador from '../assets/15.png'
+import logo from '../assets/logo.png'
 
 function Inscricao() {
     return (
         <div class="container topoInsc">
             <div class="py-5 text-center">
-                <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57" />
+                <img class="d-block mx-auto mb-4" src={logo} alt="" width="150" height="90"/>
                 <h2>Inscreva-se</h2>
                 <p class="lead">Faça a sua inscrição e se torne um programador Full Stack.</p>
             </div>
@@ -14,7 +15,7 @@ function Inscricao() {
             <div class="row g-5">
                 <div class="col-md-5 col-lg-4 order-md-last">
                     {/* 328 x 1105 */}
-                    <img class="bd-placeholder-img" width='300px' height='1105px' src={programador} alt="" />
+                    <img class="bd-placeholder-img" width='420px' height='750px' src={programador} alt="" />
                 </div>
 
                 <div class="col-md-7 col-lg-8">
@@ -113,8 +114,8 @@ function Inscricao() {
                         </div>
 
                         <hr class="my-4" />
-                        
-                        <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Concluir seu cadastro</button>
                     </form>
                 </div>
 
