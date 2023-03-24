@@ -15,7 +15,7 @@ function Inscricao() {
             <div class="row g-5">
                 <div class="col-md-5 col-lg-4 order-md-last">
                     {/* 328 x 1105 */}
-                    <img class="bd-placeholder-img" width='420px' height='750px' src={programador} alt="" />
+                    <img class="bd-placeholder-img" width='450px' height='750px' src={programador} alt="" />
                 </div>
 
                 <div class="col-md-7 col-lg-8">
