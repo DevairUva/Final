@@ -48,3 +48,12 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+/* ****** */
+
+.navHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1500px;
+}

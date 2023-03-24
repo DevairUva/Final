@@ -6,13 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'
-import '../styles/inscricao.css'
+import '../styles/header.css'
 
 function Header() {
   return (
     <div>
       <nav class="navbar bg-dark fixed-top" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="navHeader">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
           </button>
@@ -43,7 +43,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <Link to='/inscricao' class="navbar-brand">DATA</Link>
+          <Link to='/inscricao' class="navbar-brand">Data ficou ruim, melhor outra coisa</Link>
           {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
           <div>
             <Link to='/inscricao' class="navbar-brand">Inscreva-se</Link>
