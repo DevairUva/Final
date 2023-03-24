@@ -163,22 +163,29 @@ body {
   background-image: linear-gradient(to right, #1E0252,#14093B);
 }
 
-.container-marketing{
-background-color: #fff;
-}
-
 .fundo{
   margin: -40px;
 }
 
 .featurette-heading{
   color:#18D5FF;
+  margin-top: 60px;
+
+ 
 }
 
 .lead{
   color: #fff;
+  padding-top: 15px;
 }
+
+.lead2{
+  color: #000;
+  padding-top: 15px;
+}
+
 
 .containe-marketing2{
 background-color: #fff;
 }
+
