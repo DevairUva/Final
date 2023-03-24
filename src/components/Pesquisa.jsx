@@ -1,7 +1,12 @@
-function Pesquisa(){
-  return(
-    <div>
-      <h1>Pesquisa</h1>
+function Pesquisa() {
+  return (
+    <div class="container topoLog">
+
+      <form className='formLog'>
+
+
+      </form>
+
     </div>
   );
 }
