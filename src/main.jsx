@@ -23,7 +23,7 @@ const router = createHashRouter(
           element: <Home/>
         },
         {
-          path: "/pesquisa",
+          path: "/polos",
           element: <Pesquisa/>
         },
         {
