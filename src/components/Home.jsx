@@ -6,6 +6,7 @@ import agua from '../assets/agua.jpeg'
 import chico from '../assets/chico.png'
 import marcel from '../assets/marcel.png'
 import prog from '../assets/prog.jpg'
+import video from '../assets/video.mp4'
 
 function Home() {
   return (
@@ -133,9 +134,12 @@ function Home() {
         </div>
       </div>
 
-      <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-</div>
+      <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+
+      {/* <div class="ratio ratio-16x9">
+  <iframe class="mw-100 h-50 " src={video} alt="" title="YouTube video" allowfullscreen></iframe>
+</div> */}
 
       <div class="container marketing4">
         <div class="featurette-divider" />
