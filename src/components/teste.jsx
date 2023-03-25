@@ -18,6 +18,22 @@ function Teste() {
     });
   }, [])
 
+  const [titulo, setTitulo] = useState('')
+  const [descricao, setDescricao] = useState('')
+  const [data_criacao, setData_criacao] = useState('')
+
+  useEffect(() => {
+    const options = { method: 'GET', url: 'http://localhost:3000/tarefa' };
+    axios.request(options).then(function (response) {
+      setTitulo(response.data[0].titulo)
+      setDescricao(response.data[0].descricao)
+      setData_criacao(response.data[0].data_criacao)
+    }).catch(function (error) {
+      console.error(error);
+    });
+  }, [])
+
+
   return (
     <div class="container topoLog">
       <div class="mb-3">
@@ -30,23 +46,16 @@ function Teste() {
         <p>{nome}</p>
       </div>
 
-      <Card class="container topoLog">
-        <Card.Header>{nome} a</Card.Header>
+      <Card>
+        <Card.Header>{titulo}</Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">
-                Example textareaa
-              </label>
-              {/* <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea><br/>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea><br/>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea> */}
-
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea><br />
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea><br />
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea>
-
-            </div>
+            <p>
+              {descricao}
+            </p>
+            <footer className="blockquote-footer">
+              {data_criacao}
+            </footer>
           </blockquote>
         </Card.Body>
       </Card>
