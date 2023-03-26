@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/home.css'
-import edu from '../assets/edu.jpg'
+import edu from '../assets/edu.png'
 import agua from '../assets/agua.jpeg'
 import chico from '../assets/chico.png'
 import marcel from '../assets/marcel.png'
