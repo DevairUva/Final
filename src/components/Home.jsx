@@ -68,25 +68,25 @@ function Home() {
 
       <div class="container marketing">
         <div class="fundo">
-          <h2 class="fw-normal textCenterHome">Idealizadores</h2>
+          <h2 class="fw-normal textCenterHome"><strong>Idealizadores</strong></h2>
           <div class="row">
             <div class="col-lg-4">
               <img class="rounded-circle" width="140" height="140" src={edu} alt="" />
               <h2 class="fw-normal">Eduardo Paes</h2>
               <p>É o atual prefeito do Rio de Janeiro, cargo que ocupou anteriormente de 2009 a 2017.</p>
-              <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+              {/* <p><a class="btn btn-info" href="#">View details &raquo;</a></p> */}
             </div>
             <div class="col-lg-4">
               <img class="rounded-circle" width="140" height="140" src={chico} alt="" />
               <h2 class="fw-normal">Chicão Bulhões</h2>
               <p>Secretário municipal de Desenvolvimento Econômico, Inovação e Simplificação.</p>
-              <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+              {/* <p><a class="btn btn-info" href="#">View details &raquo;</a></p> */}
             </div>
             <div class="col-lg-4">
               <img class="rounded-circle" width="140" height="140" src={marcel} alt="" />
               <h2 class="fw-normal">Marcel Balassiano</h2>
               <p>Subsecretário municipal de Desenvolvimento Econômico e Inovação.</p>
-              <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+              {/* <p><a class="btn btn-info" href="#">View details &raquo;</a></p> */}
             </div>
           </div>
         </div>

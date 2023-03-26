@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
-import login from '../assets/icon2.png'
+import login from '../assets/icon.png'
 
 function Header() {
   return (
@@ -49,7 +49,8 @@ function Header() {
           {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
           <div>
             <Link to='/inscricao' class="navbar-brand">Inscreva-se</Link>
-            <Link to='/login' class="navbar-brand">Login</Link>
+            <Link to='/login' class="navbar-brand"><img class="rounded-circle" width="40" height="40" src={login} alt="" /></Link> 
+            
           </div>
         </div>
       </nav>
