@@ -54,7 +54,7 @@ function Inscricao() {
                             
                             <div className="col-sm-6">
                                 <label for="username" className="form-label">Sobrenome</label>
-                                    <input type="text" className="form-control" id="lastname" required onChange={(e) => setName(e.target.value)}/>
+                                    <input type="text" className="form-control" id="lastname" required/>
                                     <div className="invalid-feedback">
                                         Your username is required.
                                 </div>
