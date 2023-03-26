@@ -11,6 +11,7 @@ import Pesquisa from './components/Pesquisa';
 import Inscricao from './components/Inscricao';
 import Login from './components/Login';
 import Teste from './components/teste';
+import Nos from './components/Nos';
 
 const router = createHashRouter(
   [
@@ -38,6 +39,10 @@ const router = createHashRouter(
         {
           path: '/teste',
           element: <Teste/>
+        },
+        {
+          path: '/nos',
+          element: <Nos/>
         },
       ]
     },
