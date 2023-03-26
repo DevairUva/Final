@@ -7,6 +7,10 @@ import chico from '../assets/chico.png'
 import marcel from '../assets/marcel.png'
 import prog from '../assets/prog.jpg'
 import video from '../assets/video.mp4'
+import banner from '../assets/banner.png'
+import banner4 from '../assets/banner4.png'
+import banner3 from '../assets/banner3.png'
+
 
 function Home() {
   return (
@@ -20,34 +24,34 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="bd-placeholder-img" width="100%" height="100%" src={agua} alt="" />
+            <img class="bd-placeholder-img" width="100%" height="100%" src={banner} alt="" />
             {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg> */}
             <div class="container">
-              <div class="carousel-caption text-start">
+              {/* <div class="carousel-caption text-start">
                 <h1>Programadores Cariocas</h1>
                 <p>Uma iniciativa da Prefeitura do Rio de Janeiro</p>
                 <p><a class="btn btn-lg btn-primary" href="#">PODEMOS TIRAR ESSE BOTÃO</a></p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
+            <img class="bd-placeholder-img" width="100%" height="100%" src={banner3} alt="" />
             <div class="container">
-              <div class="carousel-caption">
+              {/* <div class="carousel-caption">
                 <h1>Another example headline.</h1>
                 <p>Some representative placeholder content for the second slide of the carousel.</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
+          <img class="bd-placeholder-img" width="100%" height="100%" src={banner4} alt="" />
             <div class="container">
-              <div class="carousel-caption text-end">
+              {/* <div class="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
                 <p>Some representative placeholder content for the third slide of this carousel.</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -135,7 +139,7 @@ function Home() {
       </div>
 
       <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      
+
 
       {/* <div class="ratio ratio-16x9">
   <iframe class="mw-100 h-50 " src={video} alt="" title="YouTube video" allowfullscreen></iframe>
@@ -155,7 +159,7 @@ function Home() {
         </div>
       </div>
     </div>
-    
+
 
 
 

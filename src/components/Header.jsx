@@ -45,7 +45,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <Link to='/inscricao' class="navbar-brand">Data ficou ruim, melhor outra coisa</Link>
+          <Link to='/inscricao' class="navbar-brand"></Link>
           {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
           <div>
             <Link to='/inscricao' class="navbar-brand">Inscreva-se</Link>
