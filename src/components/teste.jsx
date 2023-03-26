@@ -35,16 +35,16 @@ function Teste() {
 
 
   return (
-    <div class="container topoLog">
-      {/* <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">
+    <div className="container topoLog">
+      <div className="mb-3">
+        <label for="exampleFormControlTextarea1" className="form-label">
           Example textarea
         </label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value={nome}></textarea><br />
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{email}</textarea>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{senha}</textarea>
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value='a'></textarea><br />
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">{email}</textarea><br />
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">{senha}</textarea>
         <p>{nome}</p>
-      </div> */}
+      </div>
 
       <Card>
         <Card.Header>{titulo}</Card.Header>
