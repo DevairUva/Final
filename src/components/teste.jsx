@@ -36,7 +36,7 @@ function Teste() {
 
   return (
     <div class="container topoLog">
-      <div class="mb-3">
+      {/* <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">
           Example textarea
         </label>
@@ -44,7 +44,7 @@ function Teste() {
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{email}</textarea>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{senha}</textarea>
         <p>{nome}</p>
-      </div>
+      </div> */}
 
       <Card>
         <Card.Header>{titulo}</Card.Header>
