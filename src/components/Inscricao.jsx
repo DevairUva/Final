@@ -42,22 +42,6 @@ function Inscricao() {
                     <h4 className="mb-3">Faça seu cadastro</h4>
                     <form onSubmit={enviarEmail}>
                         <div className="row g-3">
-                            {/* <div className="col-sm-6">
-                                <label for="firstName" className="form-label">Nome</label>
-                                <input type="text" className="form-control" id="lastName" placeholder="" value="" required />
-                                <input type="text" className="form-control" placeholder="" value="" required onChange={(e) => setName(e.target.value)}/>
-                                <div className="invalid-feedback">
-                                    Valid first name is required.
-                                </div>
-                            </div>
-
-                            <div className="col-sm-6">
-                                <label for="lastName" className="form-label">Sobrenome</label>
-                                <input type="text" className="form-control" id="lastName" placeholder="" value="" required />
-                                <div className="invalid-feedback">
-                                    Valid last name is required.
-                                </div>
-                            </div> */}
 
                             <div className="col-sm-6">
                                 <label for="username" className="form-label">Nome</label>
@@ -73,17 +57,6 @@ function Inscricao() {
                                     <input type="text" className="form-control" id="lastname" required onChange={(e) => setName(e.target.value)}/>
                                     <div className="invalid-feedback">
                                         Your username is required.
-                                </div>
-                            </div>
-
-                            <div className="col-12">
-                                <label for="username" className="form-label">Nome de usuário</label>
-                                <div className="input-group has-validation">
-                                    <span className="input-group-text">@</span>
-                                    <input type="text" className="form-control" id="username" placeholder="Usuario" required />
-                                    <div className="invalid-feedback">
-                                        Your username is required.
-                                    </div>
                                 </div>
                             </div>
 
@@ -164,7 +137,7 @@ function Inscricao() {
 
                         <hr className="my-4" />
 
-                        <button className="w-100 btn btn-primary btn-lg">Concluir seu cadastro</button>
+                        <button className="w-100 btn btn-primary btn-lg" type="submit">Concluir seu cadastro</button>
                     </form>
                 </div>
 

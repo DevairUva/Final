@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/login.css'
 
 function Login() {
@@ -24,10 +25,10 @@ function Login() {
                         <input type="checkbox" value="remember-me" /> Remember me
                     </label>
                 </div>
-                <button className="btn btn-lg btn-primary" type="submit">Sign in</button>
-                <p className="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+                <button className="btn btn-lg btn-primary" type="submit">Sign in</button><br /><br />
+                <Link to='/novoUsuario' className='criaConta'>Crie sua conta</Link>
+                <p className="mt-5 mb-3 text-muted">&copy; Squad 3 | Programadores Cariocas - Irajá | 2023</p>
             </form>
-
         </div>
     );
 }

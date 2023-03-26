@@ -12,6 +12,7 @@ import Inscricao from './components/Inscricao';
 import Login from './components/Login';
 import Teste from './components/teste';
 import Nos from './components/Nos';
+import NovoUsuario from './components/novoUsuario';
 
 const router = createHashRouter(
   [
@@ -43,6 +44,10 @@ const router = createHashRouter(
         {
           path: '/nos',
           element: <Nos/>
+        },
+        {
+          path: '/novoUsuario',
+          element: <NovoUsuario/>
         },
       ]
     },
