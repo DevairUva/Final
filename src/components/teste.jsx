@@ -33,6 +33,8 @@ function Teste() {
     });
   }, [])
 
+  console.log(nome)
+
 
   return (
     <div className="container topoLog">
@@ -41,7 +43,7 @@ function Teste() {
           Example textarea
         </label>
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value='a'></textarea><br />
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">{email}</textarea><br />
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">va</textarea><br />
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">{senha}</textarea>
         <p>{nome}</p>
       </div>
