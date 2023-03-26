@@ -10,6 +10,7 @@ import video from '../assets/video.mp4'
 import banner from '../assets/banner.png'
 import banner4 from '../assets/banner4.png'
 import banner3 from '../assets/banner3.png'
+import estudo from '../assets/estudo.png'
 
 
 function Home() {
@@ -102,7 +103,7 @@ function Home() {
               <p class="lead">Iniciativa da Prefeitura oferece bolsas, auxílio financeiro e computadores para formar profissionais.</p>
             </div>
             <div class="col-md-5">
-              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src={prog} alt="" />
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
             </div>
           </div>
         </div>
