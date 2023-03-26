@@ -1,6 +1,6 @@
 function Nos() {
     return (
-        <div class="container topoLog">
+        <div className="container topoLog">
         
         <h1>Ponha o código aqui</h1>
 
