@@ -46,7 +46,7 @@ function Home() {
             </div>
           </div>
           <div className="carousel-item">
-          <img className="bd-placeholder-img" width="100%" height="100%" src={banner4} alt="" />
+            <img className="bd-placeholder-img" width="100%" height="100%" src={banner4} alt="" />
             <div className="container">
               {/* <div className="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
@@ -139,7 +139,10 @@ function Home() {
         </div>
       </div>
 
-      <iframe className="video" width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div className="video">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
 
 
       {/* <div className="ratio ratio-16x9">
