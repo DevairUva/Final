@@ -72,7 +72,7 @@ function Inscricao() {
                             </div>
 
                             <div className="col-12">
-                                <label for="email" className="form-label">E-mail <span className="text-muted">(Opcional)</span></label>
+                                <label for="email" className="form-label">E-mail <span className="text-muted"></span></label>
                                 <input type="email" className="form-control" id="email" placeholder="seu@email.com" onChange={(e) => setEmail(e.target.value)} />
                                 <div className="invalid-feedback">
                                     Please enter a valid email address for shipping updates.
@@ -125,10 +125,10 @@ function Inscricao() {
 
                         <hr className="my-4" />
 
-                        <div className="form-check">
+                        {/* <div className="form-check">
                             <input type="checkbox" className="form-check-input" id="same-address" />
                             <label className="form-check-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de cobrança.</label>
-                        </div>
+                        </div> */}
 
                         <div className="form-check">
                             <input type="checkbox" className="form-check-input" id="save-info" />

@@ -76,3 +76,13 @@
 .criaConta{
   text-decoration: none;
 }
+
+.img-fluid{
+  margin-top: -42px;
+  width: auto;
+  padding: 0;
+}
+
+.fw-normal{
+  padding-top: 50px;
+}
