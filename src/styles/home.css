@@ -60,7 +60,9 @@ body {
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+
 }
+
 
 /* rtl:end:remove */
 
@@ -177,6 +179,8 @@ body {
 .featurette-heading {
   color: #18D5FF;
   margin-top: 60px;
+ display: flex;
+ align-items: center;
 
 
 }
@@ -224,4 +228,16 @@ body {
 .videoHome{
   display: grid;
   justify-content: center;
+}
+
+.container-marketing1{
+padding-top: 60px;
+}
+
+.col-md-5{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin: 0;
+  align-items: center;
+  padding-left: 80px;
 }

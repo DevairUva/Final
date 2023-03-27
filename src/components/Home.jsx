@@ -99,7 +99,7 @@ function Home() {
 
           <div className="row featurette">
             <div className="col-md-6">
-              <h2 className="featurette-heading fw-normal lh-1">Projeto Programadores Cariocas capacita jovens do Rio para a área de TI.</h2>
+              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas capacita jovens do Rio para a área de TI.</h2>
               <p className="lead">Iniciativa da Prefeitura oferece bolsas, auxílio financeiro e computadores para formar profissionais.</p>
             </div>
             <div className="col-md-5">
@@ -123,45 +123,12 @@ function Home() {
         </div>
       </div>
 
-      <div className="background">
-        <div className="container marketing3">
-          <div className="featurette-divider" />
-
-          <div className="row featurette">
-            <div className="col-md-6">
-              <h2 className="featurette-heading fw-normal lh-1">A meta é formar cinco mil profissionais nos próximos três anos</h2>
-              <p className="lead">O Programadores Cariocas também vai oferecer dois auxílios para todos os jovens matriculados: um financeiro de R$ 500 por mês e um computador ao concluírem o curso.</p>
-            </div>
-            <div className="col-md-5">
-              <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="video">
         <iframe width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
-
-
-      {/* <div className="ratio ratio-16x9">
-  <iframe className="mw-100 h-50 " src={video} alt="" title="YouTube video" allowfullscreen></iframe>
-</div> */}
-
-      <div className="container marketing4">
-        <div className="featurette-divider" />
-
-        <div className="row featurette">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading fw-normal lh-1">A capacitação é oferecida por duas empresas: Senac, em parceria com a Resília, e a Generation.</h2>
-            <p className="lead2">O curso acontecerá em oito bairros do Rio: Madureira, Riachuelo, Irajá, Bonsucesso, Campo Grande, Centro, Bangu e Jacarepaguá.</p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-      </div>
+      
     </div>
 
 
