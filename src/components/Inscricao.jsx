@@ -17,7 +17,7 @@ function Inscricao() {
             from_email: emaiL
         }
 
-        emailjs.send("service_0s8pl2q", "template_xckv6m7", templateParams, "sJ2esEo7IHslJLodL")
+        emailjs.send("service_m6mx9ze", "template_q8z0kmj", templateParams, "xNQV6yF19uzXombYa")
         .then((response) => {
             alert(`Inscrição realizada. Confira sua caixa de email.`, response.status, response.text)
         }, (err)=>{
