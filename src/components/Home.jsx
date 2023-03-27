@@ -71,19 +71,19 @@ function Home() {
         <div className="fundo">
           <h2 className="fw-normal textCenterHome"><strong>Idealizadores</strong></h2>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-sm-4">
               <img className="rounded-circle" width="140" height="140" src={edu} alt="" />
               <h2 className="fw-normal">Eduardo Paes</h2>
               <p>É o atual prefeito do Rio de Janeiro, cargo que ocupou anteriormente de 2009 a 2017.</p>
               {/* <p><a className="btn btn-info" href="#">View details &raquo;</a></p> */}
             </div>
-            <div className="col-lg-4">
+            <div className="col-sm-4">
               <img className="rounded-circle" width="140" height="140" src={chico} alt="" />
               <h2 className="fw-normal">Chicão Bulhões</h2>
               <p>Secretário municipal de Desenvolvimento Econômico, Inovação e Simplificação.</p>
               {/* <p><a className="btn btn-info" href="#">View details &raquo;</a></p> */}
             </div>
-            <div className="col-lg-4">
+            <div className="col-sm-4">
               <img className="rounded-circle" width="140" height="140" src={marcel} alt="" />
               <h2 className="fw-normal">Marcel Balassiano</h2>
               <p>Subsecretário municipal de Desenvolvimento Econômico e Inovação.</p>
