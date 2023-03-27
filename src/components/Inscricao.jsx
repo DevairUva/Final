@@ -38,7 +38,7 @@ function Inscricao() {
                     <img className="bd-placeholder-img" width='450px' height='750px' src={programador} alt="" />
                 </div>
 
-                <div className="col-md-7 col-lg-8">
+                <div className="col-md-7 col-lg-6">
                     <h4 className="mb-3">Faça seu cadastro</h4>
                     <form onSubmit={enviarEmail}>
                         <div className="row g-3">
