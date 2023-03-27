@@ -12,7 +12,7 @@ import Inscricao from './components/Inscricao';
 import Login from './components/Login';
 import Teste from './components/teste';
 import Nos from './components/Nos';
-import NovoUsuario from './components/novoUsuario';
+import NovoUsuario from './components/NovoUsuario';
 
 const router = createHashRouter(
   [
