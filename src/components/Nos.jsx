@@ -22,8 +22,8 @@ function Nos() {
                         <img className="rounded-circle" width="140" height="140" src={carol} alt="" />
                         <h2 className="fw-normal">Carolina Rocha</h2>
                         <p>Desenvolvedora front e designer</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt="" />
-                        <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
+                       <a href="https://github.com/carolrc"> <img className="bd-placeholder-img" width="30" height="30" src={git} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/carolrc/"><img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
                        
                        
                     </div>
@@ -31,23 +31,23 @@ function Nos() {
                         <img className="rounded-circle" width="140" height="140" src={dev} alt="" />
                         <h2 className="fw-normal">Devair Martins</h2>
                         <p>Desenvolvedor front e back end</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""   />
-                        <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
+                         <a href="https://github.com/DevairUva"><img className="bd-placeholder-img" width="30" height="30" src={git} alt=""   /></a>
+                        <a href="https://br.linkedin.com/in/devair-martins-2a6376190/"><img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
                         
                     </div>
                     <div className="col-lg-4 nos">
                         <img className="rounded-circle" width="140" height="140" src={isa} alt="" />
                         <h2 className="fw-normal">Isabela Alves</h2>
                         <p>Desenvolvedora front e back end</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  />
-                        <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
+                        <a href="https://github.com/isabelaalvesc"><img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  /></a>
+                        <a href="https://br.linkedin.com/in/isabela-alves-1ab8951a4/"><img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
                     </div>
                     <div className="col-lg-4 nos">
-                        <img className="rounded-circle" width="140" height="140" src={wash} alt="" />
+                          <img className="rounded-circle" width="140" height="140" src={wash} alt="" />
                         <h2 className="fw-normal">Washignton Ligel</h2>
                         <p>Desenvolvedor front e back end</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  />
-                        <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
+                        <a href="https://github.com/WashLigel"><img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  /></a>
+                       <a href="https://www.linkedin.com/in/WashLigel/"> <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
                     </div>
                 
                 </div>
