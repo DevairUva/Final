@@ -23,6 +23,8 @@ function Home() {
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        {/* <section class="container"> */}
+          {/* <div class="container-fluid"> */}
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img className="bd-placeholder-img" width="100%" height="100%" src={banner} alt="" />
@@ -56,6 +58,9 @@ function Home() {
             </div>
           </div>
         </div>
+        {/* </div> */}
+        {/* </section> */}
+       
         <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
