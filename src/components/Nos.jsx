@@ -22,15 +22,16 @@ function Nos() {
                         <img className="rounded-circle" width="140" height="140" src={carol} alt="" />
                         <h2 className="fw-normal">Carolina Rocha</h2>
                         <p>Desenvolvedora front e designer</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  />
+                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt="" />
                         <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
+                       
                        
                     </div>
                     <div className="col-lg-4 nos">
                         <img className="rounded-circle" width="140" height="140" src={dev} alt="" />
                         <h2 className="fw-normal">Devair Martins</h2>
                         <p>Desenvolvedor front e back end</p>
-                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""  />
+                        <img className="bd-placeholder-img" width="30" height="30" src={git} alt=""   />
                         <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  />
                         
                     </div>
