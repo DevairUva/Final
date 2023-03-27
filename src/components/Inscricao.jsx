@@ -1,121 +1,143 @@
 import '../styles/inscricao.css'
-import agua from '../assets/agua.jpeg'
+import emailjs from '@emailjs/browser'
 import programador from '../assets/15.png'
 import logo from '../assets/logo.png'
+import { useState } from 'react'
 
 function Inscricao() {
+
+    const [namE, setName] = useState('');
+    const [emaiL, setEmail] = useState('')
+
+    function enviarEmail(e){
+        e.preventDefault();
+        
+        const templateParams = {
+            from_name: namE,
+            from_email: emaiL
+        }
+
+        emailjs.send("service_m6mx9ze", "template_q8z0kmj", templateParams, "xNQV6yF19uzXombYa")
+        .then((response) => {
+            alert(`Inscrição realizada. Confira sua caixa de email.`, response.status, response.text)
+        }, (err)=>{
+            alert(`Não foi possível realizar sua inscrição. `, err)
+        })
+    }
+
     return (
-        <div class="container topoInsc">
-            <div class="py-5 text-center">
-                <img class="d-block mx-auto mb-4" src={logo} alt="" width="150" height="90"/>
+        <div className="container topoInsc">
+            <div className="py-5 text-center">
+                <img className="d-block mx-auto mb-4" src={logo} alt="" width="150" height="90"/>
                 <h2>Inscreva-se</h2>
-                <p class="lead">Faça a sua inscrição e se torne um programador Full Stack.</p>
+                <p className="lead">Faça a sua inscrição e se torne um programador Full Stack.</p>
             </div>
 
-            <div class="row g-5">
-                <div class="col-md-5 col-lg-4 order-md-last">
-                    {/* 328 x 1105 */}
-                    <img class="bd-placeholder-img" width='450px' height='750px' src={programador} alt="" />
+            <div className="row g-5">
+                <div className="col-md-5 col-lg-4 order-md-last">
+                    <img className="bd-placeholder-img" width='450px' height='750px' src={programador} alt="" />
                 </div>
 
-                <div class="col-md-7 col-lg-8">
-                    <h4 class="mb-3">Faça seu cadastro</h4>
-                    <form class="needs-validation" novalidate>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <label for="firstName" class="form-label">Nome</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required />
-                                <div class="invalid-feedback">
-                                    Valid first name is required.
+                <div className="col-md-7 col-lg-6">
+                    <h4 className="mb-3">Faça seu cadastro</h4>
+                    <form onSubmit={enviarEmail}>
+                        <div className="row g-3">
+
+                            <div className="col-sm-6">
+                                <label for="username" className="form-label">Nome</label>
+                                    <input type="text" className="form-control" id="firstname" required onChange={(e) => setName(e.target.value)}/>
+                                    <div className="invalid-feedback">
+                                        Your username is required.
                                 </div>
                             </div>
 
-                            <div class="col-sm-6">
-                                <label for="lastName" class="form-label">Sobrenome</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required />
-                                <div class="invalid-feedback">
-                                    Valid last name is required.
+                            
+                            <div className="col-sm-6">
+                                <label for="username" className="form-label">Sobrenome</label>
+                                    <input type="text" className="form-control" id="lastname" required/>
+                                    <div className="invalid-feedback">
+                                        Your username is required.
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <label for="username" class="form-label">Nome de usuário</label>
-                                <div class="input-group has-validation">
-                                    <span class="input-group-text">@</span>
-                                    <input type="text" class="form-control" id="username" placeholder="Usuario" required />
-                                    <div class="invalid-feedback">
+                            <div className="col-12">
+                                <label for="username" className="form-label">Nome de usuário</label>
+                                <div className="input-group has-validation">
+                                    <span className="input-group-text">@</span>
+                                    <input type="text" className="form-control" id="username" placeholder="Usuario" required />
+                                    <div className="invalid-feedback">
                                         Your username is required.
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <label for="email" class="form-label">E-mail <span class="text-muted">(Opcional)</span></label>
-                                <input type="email" class="form-control" id="email" placeholder="seu@email.com" />
-                                <div class="invalid-feedback">
+                            <div className="col-12">
+                                <label for="email" className="form-label">E-mail <span className="text-muted"></span></label>
+                                <input type="email" className="form-control" id="email" placeholder="seu@email.com" onChange={(e) => setEmail(e.target.value)} />
+                                <div className="invalid-feedback">
                                     Please enter a valid email address for shipping updates.
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <label for="address" class="form-label">Endereço</label>
-                                <input type="text" class="form-control" id="address" placeholder="rua a, 123 - bairro" required />
-                                <div class="invalid-feedback">
+                            <div className="col-12">
+                                <label for="address" className="form-label">Endereço</label>
+                                <input type="text" className="form-control" id="address" placeholder="rua a, 123 - bairro" required />
+                                <div className="invalid-feedback">
                                     Please enter your shipping address.
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <label for="address2" class="form-label">Complemento <span class="text-muted">(Opcional)</span></label>
-                                <input type="text" class="form-control" id="address2" placeholder="Casa, apartamento, etc." />
+                            <div className="col-12">
+                                <label for="address2" className="form-label">Complemento <span className="text-muted">(Opcional)</span></label>
+                                <input type="text" className="form-control" id="address2" placeholder="Casa, apartamento, etc." />
                             </div>
 
-                            <div class="col-md-5">
-                                <label for="country" class="form-label">País</label>
-                                <select class="form-select" id="country" required>
+                            <div className="col-md-5">
+                                <label for="country" className="form-label">País</label>
+                                <select className="form-select" id="country" required>
                                     <option value="">Selecione...</option>
                                     <option>Brasil</option>
                                 </select>
-                                <div class="invalid-feedback">
+                                <div className="invalid-feedback">
                                     Por favor, selecione um país válido.
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <label for="state" class="form-label">Estado</label>
-                                <select class="form-select" id="state" required>
+                            <div className="col-md-4">
+                                <label for="state" className="form-label">Estado</label>
+                                <select className="form-select" id="state" required>
                                     <option value="">Selecione...</option>
                                     <option>Rio de Janeiro</option>
                                 </select>
-                                <div class="invalid-feedback">
+                                <div className="invalid-feedback">
                                     Por favor, selecione um Estado válido.
                                 </div>
                             </div>
 
-                            <div class="col-md-3">
-                                <label for="zip" class="form-label">CEP</label>
-                                <input type="text" class="form-control" id="zip" placeholder="" required />
-                                <div class="invalid-feedback">
+                            <div className="col-md-3">
+                                <label for="zip" className="form-label">CEP</label>
+                                <input type="text" className="form-control" id="zip" placeholder="" required />
+                                <div className="invalid-feedback">
                                     É necessário informar o CEP.
                                 </div>
                             </div>
                         </div>
 
-                        <hr class="my-4" />
+                        <hr className="my-4" />
 
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="same-address" />
-                            <label class="form-check-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de cobrança.</label>
+                        {/* <div className="form-check">
+                            <input type="checkbox" className="form-check-input" id="same-address" />
+                            <label className="form-check-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de cobrança.</label>
+                        </div> */}
+
+                        <div className="form-check">
+                            <input type="checkbox" className="form-check-input" id="save-info" />
+                            <label className="form-check-label" for="save-info">Salvar esta informação para a próxima vez.</label>
                         </div>
 
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="save-info" />
-                            <label class="form-check-label" for="save-info">Salvar esta informação para a próxima vez.</label>
-                        </div>
+                        <hr className="my-4" />
 
-                        <hr class="my-4" />
-
-                        <button class="w-100 btn btn-primary btn-lg" type="submit">Concluir seu cadastro</button>
+                        <button className="w-100 btn btn-primary btn-lg" type="submit">Concluir seu cadastro</button>
                     </form>
                 </div>
 

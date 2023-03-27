@@ -7,49 +7,54 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
-import login from '../assets/icon2.png'
+import login from '../assets/icon.png'
 
 function Header() {
   return (
     <div>
-      <nav class="navbar fixed-top" data-bs-theme="dark">
-        <div class="navHeader">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
+      <nav className="navbar fixed-top" data-bs-theme="dark">
+        <div className="navHeader">
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Programadores Cariocas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Programadores Cariocas</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <Link to='/' class="nav-link active">Home</Link>
-                  {/* <a class="nav-link active" aria-current="page" href="#">Home</a> */}
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li className="nav-item">
+                  <Link to='/' className="nav-link active">Home</Link>
+                  {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
                 </li>
-                <li class="nav-item">
-                  <Link to='/polos' class="nav-link active">Polos</Link>
-                  {/* <a class="nav-link" href="#">Pesqui</a> */}
+                <li className="nav-item">
+                  <Link to='/polos' className="nav-link active">Polos</Link>
+                  {/* <a className="nav-link" href="#">Pesqui</a> */}
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li className="nav-item">
+                  <Link to='/nos' className="nav-link active">Nós</Link>
+                  {/* <a className="nav-link" href="#">Pesqui</a> */}
+                </li>
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Action</a></li>
+                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                    <li><a className="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
               </ul>
             </div>
           </div>
-          <Link to='/inscricao' class="navbar-brand">Data ficou ruim, melhor outra coisa</Link>
-          {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
+          <Link to='/inscricao' className="navbar-brand"></Link>
+          {/* <a className="navbar-brand" href="/home">Inscreva-se</a> */}
           <div>
-            <Link to='/inscricao' class="navbar-brand">Inscreva-se</Link>
-            <Link to='/login' class="navbar-brand">Login</Link>
+            <Link to='/inscricao' className="navbar-brand">Inscreva-se</Link>
+            <Link to='/login' className="navbar-brand"><img className="rounded-circle" width="40" height="40" src={login} alt="" /></Link> 
+            
           </div>
         </div>
       </nav>

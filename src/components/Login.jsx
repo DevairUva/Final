@@ -1,33 +1,40 @@
+import { Link } from 'react-router-dom'
 import '../styles/login.css'
+import pc from '../assets/pc3.png'
 
 function Login() {
     return (
-        <div class="container topoLog">
-
+        <div className="container topoLog">
+      
             <form className='formLog'>
-                <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57" />
-                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="bd-placeholder-img" width="auto" height="auto" src={pc} alt="" />
+            </div>
+            </div>
+            {/* <img src={pc} class="img-fluid" alt="Imagem responsiva" width="1200" height="450"></img> */}
+                <h1 className="h3 mb-3 fw-normal">Faça seu login</h1>
 
-                <div class="centroLogin">
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                        <label for="floatingInput">Email address</label><br />
+                <div className="centroLogin">
+                    <div className="form-floating">
+                        <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                        <label for="floatingInput">E-mail</label><br />
                     </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-                        <label for="floatingPassword">Password</label>
+                    <div className="form-floating">
+                        <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
+                        <label for="floatingPassword">Senha</label>
                     </div><br />
                 </div>
 
-                <div class="checkbox mb-3">
+                <div className="checkbox mb-3">
                     <label>
-                        <input type="checkbox" value="remember-me" /> Remember me
+                        <input type="checkbox" value="remember-me" /> Lembrar me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
-                <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+                <button className="btn btn-lg btn-primary" type="submit">ENVIAR</button><br /><br />
+                <Link to='/novoUsuario' className='criaConta'>Crie sua conta</Link>
+                <p className="mt-5 mb-3 text-muted">&copy;Programadores Cariocas | 2023</p>
             </form>
-
         </div>
     );
 }

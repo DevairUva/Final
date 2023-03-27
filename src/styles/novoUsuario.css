@@ -51,7 +51,7 @@
 
 /* ********/
 
-.topoLog{
+.topoNov{
   margin-top: 50px;
   margin-bottom: 40px;
 }
@@ -60,7 +60,7 @@
   width: 400px;
 }
 
-.formLog{
+.formNov{
   text-align: center;
 }
 
@@ -68,21 +68,7 @@
   background-color: red;
 }
 
-.centroLogin{
+.centroNov{
   display: grid;
   justify-content: center;
-}
-
-.criaConta{
-  text-decoration: none;
-}
-
-.img-fluid{
-  margin-top: -42px;
-  width: auto;
-  padding: 0;
-}
-
-.fw-normal{
-  padding-top: 50px;
 }
