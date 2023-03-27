@@ -4,17 +4,21 @@ import '../styles/novoUsuario.css'
 function NovoUsuario() {
 
   const [senha, setSenha] = useState('');
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
   const [confirmacao, setConfirmacao] = useState('');
 
   function confirmaSenha(e) {
     e.preventDefault();
 
-    if (senha === confirmacao) {
+    if ((senha != '' && nome != '' && email != '' && confirmacao != '') && senha === confirmacao) {
       alert(`Usuário criado`);
       return;
-    } else {
-      alert(`As senhas são iguais`)
+    } else if (senha !== confirmacao) {
+      alert(`As senhas não são iguais`)
       return;
+    } else if (senha == '' || nome == '' || email == '' || confirmacao == ''){
+      alert(`Preencha todos os campos`)
     }
   }
 
@@ -27,20 +31,20 @@ function NovoUsuario() {
 
         <div className="centroNov">
           <div className="form-floating">
-            <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com" />
-            <label for="floatingInput">Nome</label><br />
+            <input type="text" className="form-control" id="nome" placeholder="nome" onChange={(e) => setNome(e.target.value)}/>
+            <label for="nome">Nome</label><br />
           </div>
           <div className="form-floating">
-            <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
-            <label for="floatingInput">Email de acesso</label><br />
+            <input type="email" className="form-control" id="email" placeholder="email" onChange={(e) => setEmail(e.target.value)}/>
+            <label for="email">Email de acesso</label><br />
           </div>
           <div className="form-floating">
-            <input type="password" className="form-control" id="floatingPassword" placeholder="Password" onChange={(e) => setSenha(e.target.value)} />
-            <label for="floatingPassword">Senha para acesso</label>
+            <input type="password" className="form-control" id="senha"  placeholder="senha" onChange={(e) => setSenha(e.target.value)} />
+            <label for="senha">Senha para acesso</label>
           </div><br />
           <div className="form-floating">
-            <input type="password" className="form-control" id="floatingPassword" placeholder="Password" onChange={(e) => setConfirmacao(e.target.value)} />
-            <label for="floatingPassword">Repita sua senha</label>
+            <input type="password" className="form-control" id="confirmacao" placeholder="confirmacao" onChange={(e) => setConfirmacao(e.target.value)} />
+            <label for="confirmacao">Repita sua senha</label>
           </div><br />
         </div>
         <button className="btn btn-lg btn-primary" type="submit">Criar conta</button>

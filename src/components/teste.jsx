@@ -33,8 +33,10 @@ function Teste() {
     });
   }, [])
 
-  console.log(nome)
-
+  function variaveis(){
+    alert(`nome: ${nome}`)
+    console.log(`nome: ${nome}`)
+  }
 
   return (
     <div className="container topoLog">
@@ -61,6 +63,8 @@ function Teste() {
           </blockquote>
         </Card.Body>
       </Card>
+
+      <button onClick={variaveis}>clicara</button>
     </div>
   );
 }
