@@ -9,33 +9,33 @@ function Inscricao() {
     const [namE, setName] = useState('');
     const [emaiL, setEmail] = useState('')
 
-    function enviarEmail(e){
+    function enviarEmail(e) {
         e.preventDefault();
-        
+
         const templateParams = {
             from_name: namE,
             from_email: emaiL
         }
 
         emailjs.send("service_m6mx9ze", "template_q8z0kmj", templateParams, "xNQV6yF19uzXombYa")
-        .then((response) => {
-            alert(`Inscrição realizada. Confira sua caixa de email.`, response.status, response.text)
-        }, (err)=>{
-            alert(`Não foi possível realizar sua inscrição. `, err)
-        })
+            .then((response) => {
+                alert(`Inscrição realizada. Confira sua caixa de email.`, response.status, response.text)
+            }, (err) => {
+                alert(`Não foi possível realizar sua inscrição. `, err)
+            })
     }
 
     return (
         <div className="container topoInsc">
             <div className="py-5 text-center">
-                <img className="d-block mx-auto mb-4" src={logo} alt="" width="150" height="90"/>
+                <img className="d-block mx-auto mb-4" src={logo} alt="" width="150" height="90" />
                 <h2>Inscreva-se</h2>
                 <p className="lead">Faça a sua inscrição e se torne um programador Full Stack.</p>
             </div>
 
             <div className="row g-5">
                 <div className="col-md-5 col-lg-4 order-md-last">
-                    <img className="bd-placeholder-img" width='450px' height='750px' src={programador} alt="" />
+                    <img className="bd-placeholder-img" width='430px' height='750px' src={programador} alt="" />
                 </div>
 
                 <div className="col-md-7 col-lg-6">
@@ -45,18 +45,18 @@ function Inscricao() {
 
                             <div className="col-sm-6">
                                 <label for="username" className="form-label">Nome</label>
-                                    <input type="text" className="form-control" id="firstname" required onChange={(e) => setName(e.target.value)}/>
-                                    <div className="invalid-feedback">
-                                        Your username is required.
+                                <input type="text" className="form-control" id="firstname" required onChange={(e) => setName(e.target.value)} />
+                                <div className="invalid-feedback">
+                                    Your username is required.
                                 </div>
                             </div>
 
-                            
+
                             <div className="col-sm-6">
                                 <label for="username" className="form-label">Sobrenome</label>
-                                    <input type="text" className="form-control" id="lastname" required/>
-                                    <div className="invalid-feedback">
-                                        Your username is required.
+                                <input type="text" className="form-control" id="lastname" required />
+                                <div className="invalid-feedback">
+                                    Your username is required.
                                 </div>
                             </div>
 
@@ -92,7 +92,18 @@ function Inscricao() {
                                 <input type="text" className="form-control" id="address2" placeholder="Casa, apartamento, etc." />
                             </div>
 
-                            <div className="col-md-5">
+                            <div className='col-md-5'>
+                                <label for="country" className="form-label">País</label>
+                                <select className="form-select" id="country" required>
+                                    <option value="">Selecione...</option>
+                                    <option>Brasil</option>
+                                </select>
+                                <div className="invalid-feedback">
+                                    Por favor, selecione um país válido.
+                                </div>
+                            </div>
+
+                            {/* <div className="col-md-5">
                                 <label for="country" className="form-label">País</label>
                                 <select className="form-select" id="country" required>
                                     <option value="">Selecione...</option>
@@ -120,7 +131,7 @@ function Inscricao() {
                                 <div className="invalid-feedback">
                                     É necessário informar o CEP.
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <hr className="my-4" />
