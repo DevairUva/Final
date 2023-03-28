@@ -131,13 +131,15 @@ function Home() {
 
 
       <div className="video">
-        <div className="container">
-          <h1>Dê um Play nessa ideia ;)</h1>
-          <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="" heigth="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+  <div className="container">
+    <h1>Dê um Play nessa ideia ;)</h1>
+    <div className="embed-responsive embed-responsive-16by9">
+      <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="800" height="450" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
     </div>
 
       );
