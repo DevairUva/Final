@@ -79,8 +79,8 @@ function Pesquisa() {
           </div>
 
           <div className="mb-3">
-            <label for="sobre_un" className="form-label">{sobre}</label>
-            <textarea className="form-control" id="sobre_un" rows="5" disabled></textarea>
+            <label for="sobre_un" className="form-label">Sobre</label>
+            <textarea className="form-control" id="sobre_un" rows="5" disabled value={sobre}></textarea>
           </div>
         </div>
       </form>
