@@ -4,6 +4,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -86,3 +87,18 @@
 .fw-normal{
   padding-top: 50px;
 }
+
+.btn-primary{
+    background-color:#18D5FF;
+    font-weight: bolder;
+    border: 0;
+    padding: 10px 35px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #14093B;
+}
+
+.btn-primary:hover{
+  background-color: #14093B;
+}
+

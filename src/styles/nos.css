@@ -6,9 +6,14 @@
 
 }
 
-.col-lg-4{
-  width: max-content;
-  padding-bottom: 80px;
+.col-md-4{
+  /* width: max-content; */
+  /* padding-bottom: 280px; */
+  margin-bottom: 90px;
+  align-items: center;
+  position: relative;
+  line-height: 1.8;
+
 
 }
 

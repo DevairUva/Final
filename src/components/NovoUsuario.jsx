@@ -47,8 +47,8 @@ function NovoUsuario() {
             <label for="confirmacao">Repita sua senha</label>
           </div><br />
         </div>
-        <button className="btn btn-lg btn-primary" type="submit">Criar conta</button>
-        <p className="mt-5 mb-3 text-muted">&copy; Squad 3 | Programadores Cariocas - Irajá | 2023</p>
+        <button className="btn btn-lg btn-primary" type="submit">CRIAR CONTA</button>
+        <p className="mt-5 mb-3 text-muted">&copy;Programadores Cariocas | 2023</p>
       </form>
 
     </div>
