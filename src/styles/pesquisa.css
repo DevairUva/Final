@@ -1,3 +1,7 @@
 .form-control {
     resize: none;
 }
+
+.mapa{
+    align-items: center;
+}

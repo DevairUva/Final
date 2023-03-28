@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/logo.png'
 import "../styles/pesquisa.css"
 import axios from 'axios';
+import mapa from '../assets/map.png'
 
 
 function Pesquisa() {
@@ -32,6 +33,9 @@ function Pesquisa() {
   return (
 
     <div className="container topoLog">
+      
+      <img className="mapa" width="563" height="300" src={mapa} alt="" />
+    
 
       <div className="py-5 text-center">
         <h3>Conheça nossos polos de ensino</h3>

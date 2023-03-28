@@ -55,8 +55,8 @@ function Nos() {
                           <img className="rounded-circle" width="140" height="140" src={wash} alt="" />
                         <h2 className="fw-normal">Washignton Ligel</h2>
                         <p>Desenvolvedor front e back end</p>
-                        <a href="https://github.com/WashLigel"><img className="bd-placeholder-img"id="git" width="30" height="30" src={git} alt=""  /></a>
-                       <a href="https://www.linkedin.com/in/WashLigel/"> <img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
+                        <a href="https://github.com/WashLigel"><img className="bd-placeholder-img" id="git" width="30" height="30" src={git} alt="" /></a>
+                       <a href="https://www.linkedin.com/in/WashLigel/"><img className="bd-placeholder-img2" width="25" height="25" src={linkedin} alt=""  /></a>
                     </div>
                 
                 </div>
