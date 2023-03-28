@@ -51,25 +51,26 @@
 
 /* ****** */
 
-.navHeader{
+.navHeader {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 1500px;
 }
 
-.navbar{
+.navbar {
   background-color: #18D5FF;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: #14093B;
 }
 
-.navbar-toggler{
-color: #14093B;
+.navbar-toggler {
+  color: #14093B;
+  border: #14093B solid 2px;
 }
 
-.offcanvas{
-background-color: #14093B;
+.offcanvas {
+  background-color: #14093B;
 }

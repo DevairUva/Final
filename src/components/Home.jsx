@@ -109,8 +109,25 @@ function Home() {
         </div>
       </div>
 
+      <div className="background">
+        <div className="container marketing1">
+          < div className="featurette-divider" />
+
+          <div className="row featurette">
+            <div className="col-md-6">
+              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas capacita jovens do Rio para a área de TI.</h2>
+              <p className="lead">Iniciativa da Prefeitura oferece bolsas, auxílio financeiro e computadores para formar profissionais.</p>
+            </div>
+            <div className="col-md-5">
+              <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div className="video">
+        <h1>Dê um Play nessa ideia ;)</h1><br />
         <iframe width="854" height="480" src="https://www.youtube.com/embed/YNj2nhTnKsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
