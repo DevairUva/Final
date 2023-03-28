@@ -24,6 +24,7 @@ function Pesquisa() {
       setCoordenador(response.data[0].coordenador)
       setProfessor(response.data[0].professor)
       setQuantidade(response.data[0].qtd_alunos)
+      setSobre(response.data[0].sobre)
     }).catch(function (error) {
       console.error(error);
     });
@@ -78,7 +79,7 @@ function Pesquisa() {
           </div>
 
           <div className="mb-3">
-            <label for="sobre_un" className="form-label">Sobre</label>
+            <label for="sobre_un" className="form-label">{sobre}</label>
             <textarea className="form-control" id="sobre_un" rows="5" disabled></textarea>
           </div>
         </div>
