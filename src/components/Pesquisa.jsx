@@ -35,8 +35,9 @@ function Pesquisa() {
 
     <div className="container topoLog">
       
-      <img className="mapa" width="563" height="300" src={mapa} alt="" />
-    
+      <div className='video'>
+        <img className="mapa" width="563" height="300" src={mapa} alt="" />
+      </div>      
 
       <div className="py-5 text-center">
         <h3>Conheça nossos polos de ensino</h3>
