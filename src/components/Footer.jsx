@@ -53,7 +53,7 @@ function Footer() {
           </div>
 
           <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; Squad 3 | Programadores Cariocas - Irajá | 2023</p>
+            <p>&copy;Programadores Cariocas | 2023</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use xlink:href="#twitter" /></svg></a></li>
               <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use xlink:href="#instagram" /></svg></a></li>

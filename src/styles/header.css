@@ -62,9 +62,14 @@
   background-color: #18D5FF;
 }
 
+#login:hover{
+  transform: scale(1.3);
+ }
+
 .navbar-brand {
   color: #14093B;
 }
+
 
 .navbar-toggler {
   color: #14093B;

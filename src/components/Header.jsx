@@ -46,7 +46,7 @@ function Header() {
           {/* <a className="navbar-brand" href="/home">Inscreva-se</a> */}
           <div>
             <Link to='/inscricao' className="navbar-brand">Inscreva-se</Link>
-            <Link to='/login' className="navbar-brand"><img className="rounded-circle" width="40" height="40" src={login} alt="" /></Link>
+            <Link to='/login' className="navbar-brand"><img className="rounded-circle" id="login" width="40" height="40" src={login} alt="" /></Link>
           </div>
         </div>
       </nav>

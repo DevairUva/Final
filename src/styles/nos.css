@@ -2,9 +2,13 @@
 
 .bd-placeholder-img2{
     margin-left: 20px;
- 
 
 }
+
+.bd-placeholder-img2:hover, #git:hover{
+ transform: scale(1.5);
+}
+
 
 .col-md-4{
   /* width: max-content; */
