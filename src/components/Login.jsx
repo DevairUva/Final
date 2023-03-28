@@ -4,16 +4,14 @@ import pc from '../assets/pc3.png'
 
 function Login() {
     return (
-        <div className="container topoLog">
-      
+        // <div className="container topoLog">
+        <div>
+            <div className='divFoto'>
+                <img className='fotoLogin' width="1519px" height="405.9px" src={pc} />
+            </div>
+
             <form className='formLog'>
-            <div className="carousel-inner">
-          <div className="carousel-item active">
-            
-            <img className="bd-placeholder-img" width="auto" height="auto" src={pc} alt="" />
-            </div>
-            </div>
-            {/* <img src={pc} class="img-fluid" alt="Imagem responsiva" width="1200" height="450"></img> */}
+                {/* <img src={pc} class="img-fluid" alt="Imagem responsiva" width="1200" height="450"></img> */}
                 <h1 className="h3 mb-3 fw-normal">Faça seu login</h1>
 
                 <div className="centroLogin">
@@ -32,7 +30,7 @@ function Login() {
                         <input type="checkbox" value="remember-me" /> Lembrar me
                     </label>
                 </div>
-                <button id="button" className="btn btn-lg btn-primary"  type="submit">ENVIAR</button><br /><br />
+                <button id="button" className="btn btn-lg btn-primary" type="submit">ENVIAR</button><br /><br />
                 <Link to='/novoUsuario' className='criaConta'>Crie sua conta</Link>
                 <p className="mt-5 mb-3 text-muted">&copy;Programadores Cariocas | 2023</p>
             </form>
