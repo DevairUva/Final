@@ -15,51 +15,32 @@ import estudo from '../assets/estudo.png'
 
 function Home() {
   return (
-    <div className='topoHome'>
+    <div className='topoHome h-100'>
 
-      <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+      <div id="myCarousel" className="carousel slide h-100" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        {/* <section class="container"> */}
-          {/* <div class="container-fluid"> */}
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="bd-placeholder-img" width="100%" height="100%" src={banner} alt="" />
-            {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg> */}
+        
+        <div className="carousel-inner h-100">
+          <div className="carousel-item active h-100">
+            <img className="bd-placeholder-img h-100" width="100%" height="100%" src={banner} alt="" />
             <div className="container">
-              {/* <div className="carousel-caption text-start">
-                <h1>Programadores Cariocas</h1>
-                <p>Uma iniciativa da Prefeitura do Rio de Janeiro</p>
-                <p><a className="btn btn-lg btn-primary" href="#">PODEMOS TIRAR ESSE BOTÃO</a></p>
-              </div> */}
             </div>
           </div>
-          <div className="carousel-item">
-            <img className="bd-placeholder-img" width="100%" height="100%" src={banner3} alt="" />
+          <div className="carousel-item h-100">
+            <img className="bd-placeholder-img h-100" width="100%" height="100%" src={banner3} alt="" />
             <div className="container">
-              {/* <div className="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div> */}
             </div>
           </div>
-          <div className="carousel-item">
-            <img className="bd-placeholder-img" width="100%" height="100%" src={banner4} alt="" />
+          <div className="carousel-item h-100">
+            <img className="bd-placeholder-img h-100" width="100%" height="100%" src={banner4} alt="" />
             <div className="container">
-              {/* <div className="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div> */}
             </div>
           </div>
         </div>
-        {/* </div> */}
-        {/* </section> */}
        
         <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,7 +50,7 @@ function Home() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+        </div>
 
 
       <div className="container marketing">
