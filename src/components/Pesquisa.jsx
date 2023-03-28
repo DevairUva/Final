@@ -52,7 +52,7 @@ function Pesquisa() {
           <option value="4">Bonsucesso</option>
           <option value="5">Campo Grande</option>
           <option value="6">Centro</option>
-          <option value="7">Bangu</option>
+          <option value="7">Botafogo</option>
           <option value="8">Barra da Tijuca</option>
         </select>
 
