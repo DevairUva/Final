@@ -9,8 +9,9 @@ function Footer() {
             <div className="col-6 col-md-2 mb-3">
               <h5>Programa</h5>
               <ul className="nav flex-column">
-                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 textColor textColor">História</a></li>
-                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 textColor">Organização</a></li>
+                <li className="nav-item mb-2"><a href="https://programadorescariocas.rio/wp-content/uploads/sites/8/2022/07/EDITAL_PROGRAMADORES.pdf" className="nav-link p-0 textColor textColor">Edital</a></li>
+                <li className="nav-item mb-2"><a href="https://prefeitura.rio/tag/programadores-cariocas/" className="nav-link p-0 textColor">Na mídia</a></li>
+                            <li className="nav-item mb-2"><a href="https://prefeitura.rio/desenvolvimento-economico-inovacao-simplificacao/programadores-cariocas-comemoram-formatura-na-cidade-das-artes/" className="nav-link p-0 textColor textColor">Formatura</a></li>
               </ul>
             </div>
 

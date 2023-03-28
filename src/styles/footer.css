@@ -69,7 +69,6 @@
   /* adicionando imagem de fundo */
   /* background: url('../assets/calcada6.jpg'); */
   background-color: #14093B;
-  /* background-image: linear-gradient(to right, #4953a0, #63c0b9, #28d9aa); */
   background-image: linear-gradient(to bottom right,#18D5FFff, #17A2CEff,#154D7C, #14093Bff);
   background-size: cover;
  padding-bottom: -100;
@@ -89,3 +88,4 @@
   color: #14093B;
  
 }
+
