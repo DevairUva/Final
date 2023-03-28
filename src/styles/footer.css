@@ -87,5 +87,11 @@
   margin-top: 20px;
   letter-spacing: 2px;
   color: #14093B;
- 
+}
+
+.emailBotao{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 325px;
 }
