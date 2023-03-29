@@ -40,7 +40,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-6 col-sm-3 mb-1">
+            <div className="col-6 col-sm-3 mb-1 ">
               <form>
                 <h5>Quer saber mais?</h5>
                 Deixe seu endereço de email para receber mais informações:

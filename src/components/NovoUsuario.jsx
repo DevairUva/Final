@@ -52,7 +52,6 @@ function NovoUsuario() {
           </div><br />
         </div>
         <button className="btn btn-lg btn-primary" type="submit">CRIAR CONTA</button>
-        <p className="mt-5 mb-3 text-muted">&copy;Programadores Cariocas | 2023</p>
       </form>
 
     </div>

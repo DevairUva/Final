@@ -172,10 +172,13 @@ body {
 
 .background {
   background-image: linear-gradient(to right, #1E0252, #14093B);
+  display:flex;
+  align-items:center;
 }
 
 .fundo {
   margin: -40px;
+  /* background-color: #fff; */
 }
 
 .featurette-heading {
@@ -271,7 +274,6 @@ h1 {
   padding-top: 100px;
   padding-bottom: 20px;
 }
-
 
 
 /* h1:hover{

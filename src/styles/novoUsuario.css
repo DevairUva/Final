@@ -72,3 +72,7 @@
   display: grid;
   justify-content: center;
 }
+
+.btn{
+  margin-bottom: 50px;
+}

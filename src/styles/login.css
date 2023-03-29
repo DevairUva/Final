@@ -57,6 +57,44 @@
   margin-bottom: 40px;
 }
 
+/* .topoLog {
+  background-image: url('../assets/fundo4.jpg');
+  background-size: cover;
+} */
+
+/* body {
+  background-image: url('../assets/fundo4.jpg');
+  background-size: cover;
+} */
+
+/* html, body {
+  height: 100%;
+} */
+
+/* body{
+  background-image: url('../assets/fundo42.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+} */
+
+/* .mypage {
+  background-image: url('../assets/fundo42.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+} */
+
+.mypage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/fundoo.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 .form-floating{
   width: 400px;
 }
@@ -101,7 +139,48 @@
 .btn-primary:hover{
   background-color: #14093B;
 }
+#button{
+  margin-bottom: 0;
+}
 
 .divFoto{
   margin-top: 38px;
 }
+
+.h3{
+  color: #14093B;
+}
+
+.criaConta{
+  color:#14093B;
+  margin-top: 0;
+}
+
+.checkbox{
+  color: #14093B;
+}
+
+#acesso{
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.centroLogin{
+  width: 550px;
+  margin: 0 auto;
+  align-self: center;
+
+}
+
+
+.transparent-bg {
+  /* background-color: rgba(255, 255, 255, 0.1); semi-transparent white */
+  color: white;
+}
+
