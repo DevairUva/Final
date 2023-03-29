@@ -79,3 +79,9 @@
 .offcanvas {
   background-color: #14093B;
 }
+
+.fecharMenu{
+  background: none;
+  border: none;
+  padding: 0px;
+}

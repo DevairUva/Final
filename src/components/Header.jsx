@@ -27,15 +27,15 @@ function Header() {
               <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li className="nav-item">
-                    <Link to='/' className="nav-link active">Home</Link>
+                    <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/' className="nav-link active">Home</Link></button>
                     {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
                   </li>
                   <li className="nav-item">
-                    <Link to='/polos' className="nav-link active">Polos</Link>
+                    <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/polos' className="nav-link active">Polos</Link></button>
                     {/* <a className="nav-link" href="#">Pesqui</a> */}
                   </li>
                   <li className="nav-item">
-                    <Link to='/nos' className="nav-link active">Nós</Link>
+                    <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/nos' className="nav-link active">Nós</Link></button>
                     {/* <a className="nav-link" href="#">Pesqui</a> */}
                   </li>
                 </ul>

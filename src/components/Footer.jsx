@@ -13,12 +13,16 @@ function Footer() {
       from_email: emaiL
     }
 
-    emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
+    if(emaiL !== ''){
+      emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
       .then((response) => {
         alert(`Confira sua caixa de email.`, response.status, response.text)
       }, (err) => {
         alert(`Não encontramos seu endereço de email. `, err)
       })
+    } else {
+      alert(`Preencha o campo com seu email.`)
+    }
   }
 
   return (
