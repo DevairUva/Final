@@ -43,11 +43,10 @@ function Footer() {
             <div className="col-6 col-sm-3 mb-1">
               <form>
                 <h5>Quer saber mais?</h5>
-                <p>Deixe seu endereço de email para receber mais informações:</p>
-                <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" className="visually-hidden">Email address</label>
-                  <input type="email" id="newsletter1"  />
-                  <button className="btn btn-primary" id="button-ca" type="button">Enviar</button>
+                Deixe seu endereço de email para receber mais informações:
+                <div className="emailBotao">
+                  <input type="email" id="newsletter1"/>
+                  <button className="btn btn-primary" type="button">Enviar</button>
                 </div>
               </form>
             </div>
