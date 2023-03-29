@@ -44,7 +44,8 @@ function Teste() {
         <label for="exampleFormControlTextarea1" className="form-label">
           Example textarea
         </label>
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={senha}></textarea><br />
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={senha}></textarea>
+        <button>editar</button><br/><br />
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={titulo}></textarea><br />
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">{senha}</textarea>
         <p>{nome}</p>
