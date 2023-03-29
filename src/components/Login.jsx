@@ -30,19 +30,21 @@ function Login() {
             <label htmlFor="floatingPassword">Senha</label>
           </div>
           <br />
+          <div className="form-group">
           <div className="checkbox mb-3">
             <label>
               <input type="checkbox" value="remember-me" /> Lembrar me
             </label>
           </div>
-          <button id="button" className="btn btn-lg btn-primary" type="submit">
+          <button id="click" className="btn btn-lg btn-primary" type="submit">
             ENVIAR
           </button>
           <br />
           <br />
           <Link to="/novoUsuario" className="criaConta">
-            Crie sua conta
+            Não tem cadastro? Crie sua conta
           </Link>
+        </div>
         </div>
       </form>
     </div>
