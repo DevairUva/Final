@@ -1,6 +1,26 @@
 import '../styles/footer.css'
+import emailjs from '@emailjs/browser'
+import { useState } from 'react'
 
 function Footer() {
+
+  const [emaiL, setEmail] = useState('')
+
+  function enviarEmail(e) {
+    e.preventDefault();
+
+    const templateParams = {
+      from_email: emaiL
+    }
+
+    emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
+      .then((response) => {
+        alert(`Confira sua caixa de email.`, response.status, response.text)
+      }, (err) => {
+        alert(`Não encontramos seu endereço de email. `, err)
+      })
+  }
+
   return (
     <div className='containerDiv center' id='container-imagem'>
       <div className="container fundoFooter py-4">
@@ -11,7 +31,7 @@ function Footer() {
               <ul className="nav flex-column">
                 <li className="nav-item mb-2"><a href="https://programadorescariocas.rio/wp-content/uploads/sites/8/2022/07/EDITAL_PROGRAMADORES.pdf" className="nav-link p-0 textColor textColor">Edital</a></li>
                 <li className="nav-item mb-2"><a href="https://prefeitura.rio/tag/programadores-cariocas/" className="nav-link p-0 textColor">Na mídia</a></li>
-                            <li className="nav-item mb-2"><a href="https://prefeitura.rio/desenvolvimento-economico-inovacao-simplificacao/programadores-cariocas-comemoram-formatura-na-cidade-das-artes/" className="nav-link p-0 textColor textColor">Formatura</a></li>
+                <li className="nav-item mb-2"><a href="https://prefeitura.rio/desenvolvimento-economico-inovacao-simplificacao/programadores-cariocas-comemoram-formatura-na-cidade-das-artes/" className="nav-link p-0 textColor textColor">Formatura</a></li>
               </ul>
             </div>
 
@@ -41,12 +61,12 @@ function Footer() {
             </div>
 
             <div className="col-6 col-sm-3 mb-1 ">
-              <form>
+              <form onSubmit={enviarEmail}>
                 <h5>Quer saber mais?</h5>
                 Deixe seu endereço de email para receber mais informações:
                 <div className="emailBotao">
-                  <input type="email" id="newsletter1"/>
-                  <button className="btn btn-primary" type="button">Enviar</button>
+                  <input type="email" id="newsletter1" onChange={(e) => setEmail(e.target.value)}/>
+                  <button className="btn btn-primary" type='submit'>Enviar</button>
                 </div>
               </form>
             </div>

@@ -14,19 +14,28 @@ function NovoUsuario() {
     e.preventDefault()
 
     const dados = {
-      nomee : nome,
-      emaill : email,
-      senhaa : senha
+      nomee: nome,
+      emaill: email,
+      senhaa: senha
     }
 
-    console.log(dados)
-    axios.post('http://localhost:3000/usuario', dados)
-    .then(function(response){
-      console.log(response)
-    })
-    .catch(function(error){
-      console.log(error)
-    });
+    if ((senha != '' && nome != '' && email != '' && confirmacao != '') && senha === confirmacao) {
+
+      console.log(dados)
+      axios.post('http://localhost:3000/usuario', dados)
+        .then(function (response) {
+          console.log(response)
+        })
+        .catch(function (error) {
+          console.log(error)
+        });
+
+    } else if (senha == '' || nome == '' || email == '' || confirmacao == '') {
+      alert(`Preencha todos os campos`)
+    } else if (senha !== confirmacao) {
+      alert(`As senhas não são iguais`)
+    }
+
   })
 
   return (
