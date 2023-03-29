@@ -42,7 +42,7 @@ function Teste() {
   }
 
   return (
-    <div className="container topoLog">
+    <div className="container">
       <h1 className='centroTeste'>Dados dos usuários:</h1>
       <Table striped bordered hover>
         <thead>
@@ -70,6 +70,7 @@ function Teste() {
           })}
         </tbody>
       </Table>
+      <h1 className='centroTeste'>Apenas Admins podem utilizar essa página</h1>
     </div>
   );
 }
