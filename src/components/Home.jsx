@@ -82,11 +82,11 @@ function Home() {
           < div className="featurette-divider" />
 
           <div className="row featurette">
-            <div className="col-md-6">
-              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas capacita jovens do Rio para a área de TI.</h2>
-              <p className="lead">Iniciativa da Prefeitura oferece bolsas, auxílio financeiro e computadores para formar profissionais.</p>
+            <div className="col-md-7 order-md-2">
+              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</h2>
+              <p className="lead">A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 d-flex justify-content-center">
               <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
             </div>
           </div>
@@ -97,18 +97,12 @@ function Home() {
         <div class="featurette-divider" />
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Estão sendo ofertadas 200 Bolsas Integrais e 1000 parciais.</h2>
-            <p class="lead2">Caso o aluno se qualifique para as bolsas integrais não deverá pagar nada. No caso das bolsas parciais, o aluno só deve efetuar o pagamento caso esteja empregado na área de tecnologia com rendimentos superiores a R$2200.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Senac RJ capacita 1090 jovens do Programadores Cariocas.</h2>
+            <p class="lead2">O Senac RJ irá capacitar 1090 alunos do Programadores Cariocas, iniciativa da Prefeitura do Rio, por meio da Secretaria Municipal de Desenvolvimento Econômico, Inovação e Simplificação (SMDEIS), que visa qualificar prioritariamente mulheres, negros, pessoas trans e refugiados na área de Tecnologia da Informação.</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <div class="text-center">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#eee" />
-                <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-              </svg>
+          <div className="col-md-5">
+              <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
             </div>
-          </div>
         </div>
       </div>
 

@@ -99,6 +99,7 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  
 
 }
 
@@ -180,6 +181,7 @@ body {
   background-image: linear-gradient(to right, #1E0252, #14093B);
   display:flex;
   align-items:center;
+  height: 420px;
 }
 
 .fundo {
@@ -285,3 +287,8 @@ h1 {
 /* h1:hover{
   color: #18D5FF;
 } */
+
+.featurette-heading {
+  font-size: 2em;
+  margin-top: -25px;
+}
