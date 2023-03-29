@@ -95,3 +95,19 @@
   justify-content: space-between;
   width: 325px;
 }
+
+/* .center {
+  text-align: center;
+} */
+/* 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+/* .containerDiv {
+  display: flex;
+  justify-content: center;
+} */

@@ -2,7 +2,7 @@ import '../styles/footer.css'
 
 function Footer() {
   return (
-    <div className='containerDiv' id='container-imagem'>
+    <div className='containerDiv center' id='container-imagem'>
       <div className="container fundoFooter py-4">
         <footer className="py-5 footerW">
           <div className="row">

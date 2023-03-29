@@ -10,6 +10,7 @@ import banner from '../assets/banner.png'
 import banner4 from '../assets/banner4.png'
 import banner3 from '../assets/banner3.png'
 import estudo from '../assets/estudo.png'
+import fundo from '../assets/fundo3.jpg'
 
 
 function Home() {
@@ -111,28 +112,12 @@ function Home() {
         </div>
       </div>
 
+      
 
-      <div className="background">
-        <div className="container marketing1">
-          <div className="featurette-divider" />
-
-          <div className="row featurette">
-            <div className="col-md-6">
-              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas capacita jovens do Rio para a área de TI.</h2>
-              <p className="lead">Iniciativa da Prefeitura oferece bolsas, auxílio financeiro e computadores para formar profissionais.</p>
-            </div>
-            <div className="col-md-5">
-              <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%" height="auto" src={estudo} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="video">
+      <div className="video" >
+        
   <div className="container">
-    <h1>Dê um Play nessa ideia ;)</h1>
+    <h1></h1>
     <div className="embed-responsive embed-responsive-16by9">
       <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="800" height="450" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
