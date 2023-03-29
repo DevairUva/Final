@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../styles/novoUsuario.css'
 import pc from '../assets/pc3.png'
+import axios from 'axios';
 
 function NovoUsuario() {
 
@@ -9,19 +10,24 @@ function NovoUsuario() {
   const [email, setEmail] = useState('');
   const [confirmacao, setConfirmacao] = useState('');
 
-  function confirmaSenha(e) {
-    e.preventDefault();
+  const Inserir = ((e) => {
+    e.preventDefault()
 
-    if ((senha != '' && nome != '' && email != '' && confirmacao != '') && senha === confirmacao) {
-      alert(`Usuário criado`);
-      return;
-    } else if (senha !== confirmacao) {
-      alert(`As senhas não são iguais`)
-      return;
-    } else if (senha == '' || nome == '' || email == '' || confirmacao == '') {
-      alert(`Preencha todos os campos`)
+    const dados = {
+      nomee : nome,
+      emaill : email,
+      senhaa : senha
     }
-  }
+
+    console.log(dados)
+    axios.post('http://localhost:3000/usuario', dados)
+    .then(function(response){
+      console.log(response)
+    })
+    .catch(function(error){
+      console.log(error)
+    });
+  })
 
   return (
     <div>
@@ -30,7 +36,7 @@ function NovoUsuario() {
         <img className='fotoLogin' width="1519px" height="405.9px" src={pc} />
       </div>
 
-      <form className='formNov' onSubmit={confirmaSenha}>
+      <form className='formNov' onSubmit={(e) => { Inserir(e) }}>
         <h1 className="h3 mb-3 fw-normal">Insira seus dados</h1>
 
         <div className="centroNov">
@@ -59,3 +65,17 @@ function NovoUsuario() {
 }
 
 export default NovoUsuario;
+
+  // function confirmaSenha(e) {
+  //   e.preventDefault();
+
+  //   if ((senha != '' && nome != '' && email != '' && confirmacao != '') && senha === confirmacao) {
+  //     alert(`Usuário criado`);
+  //     return;
+  //   } else if (senha !== confirmacao) {
+  //     alert(`As senhas não são iguais`)
+  //     return;
+  //   } else if (senha == '' || nome == '' || email == '' || confirmacao == '') {
+  //     alert(`Preencha todos os campos`)
+  //   }
+  // }
