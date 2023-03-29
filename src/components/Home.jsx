@@ -55,7 +55,7 @@ function Home() {
 
       <div class="container marketing">
         <div class="fundo">
-          <h2 class="fw-normal text-center"><strong>Idealizadores</strong></h2>
+          <h2 class="fw-normal text-center" id="titulo"><strong>Idealizadores</strong></h2>
           <div class="row">
             <div class="col-md-4 col-sm-12">
               <img class="rounded-circle mx-auto d-block" id="person" width="140" height="140" src={edu} alt="" />

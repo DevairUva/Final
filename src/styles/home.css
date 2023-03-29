@@ -166,7 +166,13 @@ body {
 }
 
 .fw-normal {
-  padding-top: 20px;
+  margin-bottom: 30px;
+  /* margin-top: -40px; */
+  color: #14093B;
+}
+#titulo {
+  margin-bottom: 30px;
+  margin-top: -50px;
   color: #14093B;
 }
 
