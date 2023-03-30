@@ -29,7 +29,7 @@ function Inscricao() {
 
     return (
         <div>
-            <h1 className='tdCentro'>Faça seu cadastro</h1>
+            {/* <h1 className='tdCentro'>Faça seu cadastro</h1> */}
             <div className='ladoLado'>
                 <div className="col-md-4">
                     <img className="bd-placeholder-img" id="acesso" width="450" height="450" src={inscricao} alt="" />

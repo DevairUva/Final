@@ -228,6 +228,17 @@ body {
   display: grid;
   justify-content: center;
   text-align: center;
+  margin-top: -20px;
+}
+
+.video2 {
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-image: url('../assets/fundo3.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .video {
@@ -297,6 +308,7 @@ h1 {
 
 .px50 {
   font-size: 40px;
+  line-height: 40px;
 }
 
 .px20 {
@@ -310,4 +322,9 @@ h1 {
     -1px 1px 0px #000,
     1px -1px 0px #000,
     1px 0px 0px #000;
+}
+
+.tdCentroAzul{
+  text-align: center;
+  color: #18D5FF;
 }

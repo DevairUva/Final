@@ -8,6 +8,7 @@ import prog from '../assets/prog.jpg'
 import video from '../assets/video.mp4'
 import banner from '../assets/banner.png'
 import banner4 from '../assets/banner4.png'
+import banner6 from '../assets/banner6.png'
 import banner3 from '../assets/banner3.png'
 import estudo from '../assets/estudo.png'
 import fundo from '../assets/fundo3.jpg'
@@ -79,7 +80,7 @@ function Home() {
       <div className='background'>
         <div className="alinhar">
           <div className='infoHome'>
-            <br />
+            <br /><br /><br />
             <p className='px50'>Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</p>
             <p className='px20'>A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
           </div>
@@ -92,10 +93,10 @@ function Home() {
       <div className='background2'>
         <div className="alinhar">
           <div>
-            <img width="350" height="350" src={estudo} />
+            <img width="350" height="350" src={banner6} />
           </div>
           <div className='infoHome2'>
-            <br />
+            <br /><br /><br />
             <p className='px50'>Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</p>
             <p className='px20'>A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
           </div>
@@ -129,15 +130,15 @@ function Home() {
         </div>
       </div> */}
 
+      <h1 className='tdCentroAzul'>Dê um Play nessa ideia</h1>
       <div className="video" >
-
         <div className="container">
-          <h1 className='textoRed'>Dê um play nessa ideia</h1>
+          <h1> </h1>
           <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="800" height="450" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
-      </div><br />
+      </div><br /><br />
 
 
     </div>

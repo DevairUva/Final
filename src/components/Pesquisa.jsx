@@ -35,7 +35,7 @@ function Pesquisa() {
 
     <div className="container topoLog">
       
-      <div className='video justify-content-center'>
+      <div className='video2 justify-content-center'>
         <img className="mapa" width="563" height="300" src={mapa} alt="" />
       </div>      
 
