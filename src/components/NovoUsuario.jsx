@@ -15,14 +15,15 @@ function NovoUsuario() {
     e.preventDefault()
 
     const dados = {
-      nomee: nome,
-      emaill: email,
-      senhaa: senha
+      nome: nome,
+      email: email,
+      senha: senha
     }
 
     if ((senha != '' && nome != '' && email != '' && confirmacao != '') && senha === confirmacao) {
 
       console.log(dados)
+
       axios.post('http://localhost:3000/usuario', dados)
         .then(function (response) {
           console.log(response)
@@ -30,6 +31,8 @@ function NovoUsuario() {
         .catch(function (error) {
           console.log(error)
         });
+
+      alert(`Usuário criado!`)
 
     } else if (senha == '' || nome == '' || email == '' || confirmacao == '') {
       alert(`Preencha todos os campos`)

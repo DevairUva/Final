@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './components/Home';
+import Admim from './components/Admim';
 import Pesquisa from './components/Pesquisa';
 import Inscricao from './components/Inscricao';
 import Login from './components/Login';
@@ -48,6 +49,10 @@ const router = createHashRouter(
         {
           path: '/novoUsuario',
           element: <NovoUsuario/>
+        },
+        {
+          path: '/admim',
+          element: <Admim/>
         },
       ]
     },
