@@ -73,9 +73,11 @@ function Modal(props) {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="primary" onClick={Editar}>
-                        Salvar
-                    </Button>
+                    <form action="">
+                        <Button type='submit' variant="primary" onClick={Editar}>
+                            Salvar
+                        </Button>
+                    </form>
                 </Modal.Footer>
             </Modal>
         </div>
