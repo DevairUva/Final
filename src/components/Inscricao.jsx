@@ -92,7 +92,7 @@ function Inscricao() {
                                 <input type="text" className="form-control" id="address2" placeholder="Casa, apartamento, etc." />
                             </div>
 
-                            <div className='col-md-5'>
+                            {/* <div className='col-md-5'>
                                 <label for="country" className="form-label">País</label>
                                 <select className="form-select" id="country" required>
                                     <option value="">Selecione...</option>
@@ -103,7 +103,7 @@ function Inscricao() {
                                 </div>
                             </div>
 
-                            {/* <div className="col-md-5">
+                            <div className="col-md-5">
                                 <label for="country" className="form-label">País</label>
                                 <select className="form-select" id="country" required>
                                     <option value="">Selecione...</option>
