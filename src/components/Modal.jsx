@@ -10,6 +10,7 @@ function ModalComponente(props) {
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
     const [senha, setSenha] = useState('')
+    const [id, setId] = useState('')
 
     const [show, setShow] = useState(false)
     const handleClose = () => setShow(false)
@@ -20,6 +21,7 @@ function ModalComponente(props) {
             setNome(response.data[0].nome)
             setEmail(response.data[0].email)
             setSenha(response.data[0].senha)
+            setId(response.data[0].id_usuario)
         }).catch(function (error) {
             console.error(error);
         });
@@ -75,6 +77,7 @@ function ModalComponente(props) {
                 <Modal.Body>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <h3>Insira novos dados para o usuário {id}</h3>
                             <Form.Label>Nome:</Form.Label>
                             <Form.Control type="text" onChange={(e) => setNome(e.target.value)} value={nome} />
                             <Form.Label>Email:</Form.Label>

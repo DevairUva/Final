@@ -44,7 +44,7 @@ function Teste() {
 
     return (
         <div className="container">
-            <h1 className='centroTeste'>Dados dos usuários:</h1>
+            <h1 className='tdCentro'>Dados dos usuários:</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>
@@ -70,7 +70,7 @@ function Teste() {
                     })}
                 </tbody>
             </Table>
-            <h1 className='centroTeste'>Apenas Admins podem utilizar essa página</h1>
+            <h1 className='tdCentro'>Apenas Admins podem utilizar essa página</h1>
         </div>
     );
 }

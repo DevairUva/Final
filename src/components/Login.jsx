@@ -1,13 +1,26 @@
 import { Link } from 'react-router-dom';
 import '../styles/login.css';
-import pc from '../assets/pc3.png';
-import fundo2 from '../assets/fundo42.png'
-import login from '../assets/login.png'
 import login2 from '../assets/login3.png'
-import login3 from '../assets/fundoo.png'
-
+import { useState } from 'react';
+import axios from 'axios';
 
 function Login() {
+
+  const [email, setEmail] = useState('')
+
+  const Logado = ()=>{
+    // const dado = {
+    //   email: email
+    // }
+    // console.log(email)
+    const options = { method: 'GET', url: `http://localhost:3000/usuario/email/${props.email}`}
+    axios.request(options).then(function (response){
+      setEmail(response.data[0].email)
+    }).catch(function (error){
+      console.log(error);
+    });
+  }
+
   return (
     <div className="mypage text-center">
   <div className="container topoLog">

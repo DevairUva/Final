@@ -76,12 +76,35 @@ function Home() {
         </div>
       </div>
 
+      <div className='background'>
+        <div className="alinhar">
+          <div className='infoHome'>
+            <br />
+            <p className='px50'>Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</p>
+            <p className='px20'>A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
+          </div>
+          <div>
+            <img width="350" height="350" src={estudo} />
+          </div>
+        </div>
+      </div>
 
-      <div className="background">
+      <div className='background2'>
+        <div className="alinhar">
+          <div>
+            <img width="350" height="350" src={estudo} />
+          </div>
+          <div className='infoHome2'>
+            <br />
+            <p className='px50'>Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</p>
+            <p className='px20'>A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="background">
         <div className="container marketing1">
-          < div className="featurette-divider" />
-
-          <div className="row featurette">
+          <div className="alinhar">
             <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</h2>
               <p className="lead">A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
@@ -101,27 +124,25 @@ function Home() {
             <p class="lead2">O Senac RJ irá capacitar 1090 alunos do Programadores Cariocas, iniciativa da Prefeitura do Rio, por meio da Secretaria Municipal de Desenvolvimento Econômico, Inovação e Simplificação (SMDEIS), que visa qualificar prioritariamente mulheres, negros, pessoas trans e refugiados na área de Tecnologia da Informação.</p>
           </div>
           <div className="col-md-5">
-              <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
-            </div>
+            <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
+          </div>
         </div>
-      </div>
-
-      
+      </div> */}
 
       <div className="video" >
-        
-  <div className="container">
-    <h1></h1>
-    <div className="embed-responsive embed-responsive-16by9">
-      <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="800" height="450" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
+
+        <div className="container">
+          <h1 className='textoRed'>Dê um play nessa ideia</h1>
+          <div className="embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/YNj2nhTnKsQ" width="800" height="450" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div><br />
 
 
     </div>
 
-      );
+  );
 }
 
-      export default Home;
+export default Home;

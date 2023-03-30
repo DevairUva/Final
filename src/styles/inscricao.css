@@ -82,7 +82,8 @@
 padding-left: 10px;
 }
 
-/* #botaozao {
-  width: 1000px;
-} */
-
+.ladoLado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
