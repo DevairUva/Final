@@ -8,7 +8,7 @@ import wash from '../assets/wash.png'
 import ana from '../assets/ana.png'
 import linkedin from '../assets/linkedin.png'
 import git from '../assets/git.png'
-import what from '../assets/WhatsApp Image 2023-03-29 at 19.40.49.jpeg'
+import what from '../assets/WhatsApp Image 2023-03-29 at 19.40.49.jpg'
 
 
 
