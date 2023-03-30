@@ -229,11 +229,6 @@ body {
   text-align: center;
 }
 
-/* .video {
-  background-image: url('../assets/fundo3.jpg');
-  background-size: cover; 
-} */
-
 .video {
   background-image: url('../assets/fundo3.jpg');
   background-size: cover;
@@ -246,9 +241,6 @@ body {
   height: 600px;
   
 }
-
-
-
 
 .textCenterHome {
   padding-top: 50px;

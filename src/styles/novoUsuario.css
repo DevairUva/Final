@@ -81,3 +81,16 @@
 .form-floating{
   color: black;
 }
+
+.mypage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/fundoo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 210vh;
+  margin-top: -160px;
+  margin-bottom: -100px;
+}

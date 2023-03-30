@@ -44,7 +44,7 @@ function NovoUsuario() {
 
   return (
     <div>
-      <div className='mypage'>
+      <div className='mypage2'>
         <div className="container topoLog">
           <form className="formLog">
             <div className="carousel-inner">
@@ -53,10 +53,6 @@ function NovoUsuario() {
               </div>
             </div>
             <div className="centroLogin card transparent-bg">
-
-              {/* <div className='divFoto'>
-                <img className='fotoLogin' width="1519px" height="405.9px" src={pc} />
-              </div> */}
 
               <form className='formNov' onSubmit={(e) => { Inserir(e) }}>
                 <h1 className="h3 mb-3 fw-normal">Insira seus dados</h1>
