@@ -56,6 +56,7 @@ body {
   margin: 5rem 0;
   /* Space out the Bootstrap <hr> more */
 
+
 }
 
 /* Thin out the marketing headings */
@@ -99,7 +100,6 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  
 
 }
 
@@ -194,9 +194,10 @@ body {
   margin-top: 60px;
  display: flex;
  align-items: center;
-
-
+ font-size: 2em;
+  margin-top: -20px;
 }
+
 
 .lead {
   color: #fff;
@@ -284,11 +285,7 @@ h1 {
 }
 
 
-/* h1:hover{
-  color: #18D5FF;
-} */
-
-.featurette-heading {
-  font-size: 2em;
-  margin-top: -25px;
+.row-featurette{
+  display: flex;
+  align-items: center;
 }

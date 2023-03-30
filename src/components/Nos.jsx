@@ -8,15 +8,18 @@ import wash from '../assets/wash.png'
 import ana from '../assets/ana.png'
 import linkedin from '../assets/linkedin.png'
 import git from '../assets/git.png'
-
+import what from '../assets/WhatsApp Image 2023-03-29 at 19.40.49.jpeg'
 
 
 
 function Nos() {
     return (
+      
 
         <div className="container marketing">
+          
   <div className="fundo">
+  <img class="what" src={what} alt="" />
     <h2 className="fw-normal textCenterHome"><strong>Desenvolvedores</strong></h2>
     <div className="row">
       <div className="col-md-4 col-xs-6 nos text-center">
