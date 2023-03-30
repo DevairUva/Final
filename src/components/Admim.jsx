@@ -60,10 +60,10 @@ function Teste() {
                         
                         return (
                             <tr key={index}>
-                                <td><input type="text" name="" id="" value={dados.id_usuario} /></td>
-                                <td><input type="text" value={dados.nome}/></td>
-                                <td><input type="text" value={dados.email} /></td>
-                                <td><input type="text" value={dados.senha} /></td>
+                                <td>{dados.id_usuario}</td>
+                                <td>{dados.nome}</td>
+                                <td>{dados.email}</td>
+                                <td>{dados.senha}</td>
                                 <td><a onClick={() => Editar(dados.id_usuario)}><button className='editar'>Editar</button></a></td>
                                 <td><a onClick={() => Editar(dados.id_usuario)}><button className='excluir'>Excluir</button></a></td>
                             </tr>
