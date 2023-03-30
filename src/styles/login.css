@@ -61,14 +61,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
   background-image: url('../assets/fundoo.png');
-  background-size: cover;
   background-position: center;
-  height: 130vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140vh;
   margin-top: -170px;
   margin-bottom: -115px;
 }
+
+
+.col-md-6 {
+  text-align: center; /* Optional: center the image horizontally */
+  justify-content: center;
+}
+
+
+.col-md-6 img {
+  display: flex; /* Set the image as a block-level element */
+  align-items: center;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
 
 .form-floating{
   width: 400px;
@@ -87,10 +101,6 @@
   justify-content: center;
 }
 
-.criaConta{
-  text-decoration: none;
-  padding-top: 0;
-}
 
 .img-fluid{
   margin-top: -42px;
@@ -125,12 +135,18 @@
 
 .h3{
   color: #14093B;
+  padding-top: 30px;
 }
 
-.criaConta{
-  color:#14093B;
-  margin-top: 0;
- padding-bottom: 20px;
+
+button#click {
+  margin-top: 10px; 
+}
+
+.criaConta {
+  display: block;
+  margin-top: 5px; 
+  padding-bottom: 30px; 
 }
 
 .checkbox{
@@ -157,7 +173,6 @@
 
 
 .transparent-bg {
-  /* background-color: rgba(255, 255, 255, 0.1); semi-transparent white */
   color: white;
 }
 
