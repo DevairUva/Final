@@ -97,8 +97,8 @@ function Home() {
           </div>
           <div className='infoHome2'>
             <br /><br /><br />
-            <p className='px50'>Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</p>
-            <p className='px20'>A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
+            <p className='px50'>Os candidatos podem se inscrever no site.</p>
+            <p className='px20'>Estão sendo ofertadas 200 Bolsas Integrais e 1000 parciais. Caso o aluno se qualifique para as bolsas integrais não deverá pagar nada. No caso das bolsas parciais, o aluno só deve efetuar o pagamento caso esteja empregado na área de tecnologia com rendimentos superiores a R$2200.</p>
           </div>
         </div>
       </div>
