@@ -14,9 +14,12 @@ import git from '../assets/git.png'
 
 function Nos() {
     return (
+      
 
         <div className="container marketing">
+          
   <div className="fundo">
+  <img className="bd-placeholder-img2" width="auto" height="auto" src={ana} alt=""  />
     <h2 className="fw-normal textCenterHome"><strong>Desenvolvedores</strong></h2>
     <div className="row">
       <div className="col-md-4 col-xs-6 nos text-center">
