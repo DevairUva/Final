@@ -24,3 +24,13 @@
 .textCenterHome{
     margin-top: 50px;
 }
+
+.what {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
