@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/logo.png'
 import "../styles/pesquisa.css"
 import axios from 'axios';
-import mapa from '../assets/map.png'
+import mapa from '../assets/map.gif'
 
 
 function Pesquisa() {
