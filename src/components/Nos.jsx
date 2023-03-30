@@ -19,7 +19,8 @@ function Nos() {
         <div className="container marketing">
           
   <div className="fundo">
-  <img class="what" src={what} alt="" />
+  <img class="what" src={what} alt="" style={{width: "100%"}} />
+
     <h2 className="fw-normal textCenterHome"><strong>Desenvolvedores</strong></h2>
     <div className="row">
       <div className="col-md-4 col-xs-6 nos text-center">
