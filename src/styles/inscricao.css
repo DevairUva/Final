@@ -55,3 +55,34 @@
   margin-top: 8px;
   margin-bottom: 40px;
 }
+
+.lead3{
+  margin-top: -150px;
+}
+
+#principal{
+  color: #14093B;
+  padding-left: 10px;
+}
+
+.backs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../assets/fundoo.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140vh;
+  margin-top: -130px;
+  margin-bottom: -115px;
+}
+
+#nomeform{
+padding-left: 10px;
+}
+
+/* #botaozao {
+  width: 1000px;
+} */
+
