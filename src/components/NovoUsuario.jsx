@@ -42,6 +42,10 @@ function NovoUsuario() {
 
   })
 
+  function teste(){
+    alert('funciona')
+  }
+
   return (
     <div>
       <div className='mypage2'>

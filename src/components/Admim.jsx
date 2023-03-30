@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 import axios from "axios";
 import { useEffect, useState } from "react";
 import '../styles/teste.css'
-
+import Modal from './Modal';
 
 function Teste() {
     const [id, setId] = useState('')
@@ -64,7 +64,7 @@ function Teste() {
                                 <td>{dados.nome}</td>
                                 <td>{dados.email}</td>
                                 <td>{dados.senha}</td>
-                                <td><a onClick={() => Editar(dados.id_usuario)}><button className='editar'>Editar</button></a></td>
+                                <td><Modal id={dados.id_usuario} nome={dados.nome} email={dados.email} senha={dados.senha}/></td>
                                 <td><a onClick={() => Editar(dados.id_usuario)}><button className='excluir'>Excluir</button></a></td>
                             </tr>
                         )

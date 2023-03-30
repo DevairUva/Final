@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-function Modal(props) {
+function ModalComponente(props) {
 
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
@@ -73,15 +73,13 @@ function Modal(props) {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <form action="">
-                        <Button type='submit' variant="primary" onClick={Editar}>
-                            Salvar
-                        </Button>
-                    </form>
+                    <Button type='submit' variant="primary" onClick={Editar}>
+                        Salvar
+                    </Button>
                 </Modal.Footer>
             </Modal>
         </div>
     );
 }
 
-export default Modal;
+export default ModalComponente;
