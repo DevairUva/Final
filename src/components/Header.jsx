@@ -31,6 +31,14 @@ function Header() {
                     {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
                   </li>
                   <li className="nav-item">
+                    <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/login' className="nav-link active">Login</Link></button>
+                    {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
+                  </li>
+                  <li className="nav-item">
+                    <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/inscricao' className="nav-link active">Inscreva-se</Link></button>
+                    {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
+                  </li>
+                  <li className="nav-item">
                     <button className='fecharMenu' data-bs-dismiss="offcanvas"><Link to='/polos' className="nav-link active">Polos</Link></button>
                     {/* <a className="nav-link" href="#">Pesqui</a> */}
                   </li>

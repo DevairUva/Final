@@ -28,7 +28,7 @@ function Login() {
       <div className="col-md-6">
         <img className="bd-placeholder-img" id="acesso" width="450" height="450" src={login2} alt="" />
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 direita">
         <form className="formLog">
           <div className="centroLogin card transparent-bg">
             <h1 className="h3 mb-3 fw-normal">Faça seu login</h1>
