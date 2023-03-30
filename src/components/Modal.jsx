@@ -61,7 +61,7 @@ function ModalComponente(props) {
                     <Modal.Title>Editar</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Form onSubmit={(e) => { Inserir(e) }}>
+                    <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Nome:</Form.Label>
                             <Form.Control type="text" onChange={(e) => setNome(e.target.value)} value={nome} />

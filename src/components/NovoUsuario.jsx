@@ -58,7 +58,7 @@ function NovoUsuario() {
             </div>
             <div className="centroLogin card transparent-bg">
 
-              <form className='formNov' onSubmit={(e) => { Inserir(e) }}>
+              <form className='formNov'>
                 <h1 className="h3 mb-3 fw-normal">Insira seus dados</h1>
 
                 <div className="centroNov">
@@ -79,7 +79,7 @@ function NovoUsuario() {
                     <label for="confirmacao">Repita sua senha</label>
                   </div><br />
                 </div>
-                <button className="btn btn-lg btn-primary" type="submit">CRIAR CONTA</button>
+                <button className="btn btn-lg btn-primary" type="submit" onClick={(e) => { Inserir(e) }}>CRIAR CONTA</button>
               </form>
 
             </div>
