@@ -13,7 +13,7 @@ import what from '../assets/WhatsApp Image 2023-03-29 at 19.40.49.jpg'
 function Nos() {
   return (
     <div>
-      {/* <img id="fotoNos" src={what} /> */}
+      <img id="fotoNos" src={what} />
       <h2 className="fw-normal textCenterHome"><strong>Desenvolvedores</strong></h2>
 
       <div className='fila'>

@@ -69,7 +69,7 @@ function ModalComponente(props) {
 
     return (
         <div>
-            <button className='editar' onClick={handleShow}>Editar</button>
+            <button className='editar' onClick={handleShow} type="submit">Editar</button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Editar</Modal.Title>
