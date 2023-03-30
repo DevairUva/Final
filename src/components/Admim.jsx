@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import '../styles/teste.css'
 import Modal from './Modal';
+import Delete from './Delete';
 
 function Teste() {
     const [id, setId] = useState('')
@@ -51,8 +52,7 @@ function Teste() {
                         <th>nome</th>
                         <th>email</th>
                         <th>senha</th>
-                        <th>editar</th>
-                        <th>excluir</th>
+                        <th className='tdCentro'>Opções</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -64,8 +64,7 @@ function Teste() {
                                 <td>{dados.nome}</td>
                                 <td>{dados.email}</td>
                                 <td>{dados.senha}</td>
-                                <td><Modal id={dados.id_usuario} nome={dados.nome} email={dados.email} senha={dados.senha}/></td>
-                                <td><a onClick={() => Editar(dados.id_usuario)}><button className='excluir'>Excluir</button></a></td>
+                                <td className='tdCentro'><Modal id={dados.id_usuario} nome={dados.nome} email={dados.email} senha={dados.senha}/></td>
                             </tr>
                         )
                     })}

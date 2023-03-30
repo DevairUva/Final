@@ -42,16 +42,28 @@ function ModalComponente(props) {
         setShow(false)
     })
 
-    // function Excluir() {
-    //     axios.delete(`http://localhost:3000/usuario/id/${props.id}`)
-    //         .then(function (response) {
-    //             console.log(response);
-    //         })
-    //         .catch(function (error) {
-    //             console.log(error);
-    //         });
-    //     setShow(false)
-    // }
+    function Excluir() {
+
+        let opcao = confirm('Deseja realmente excluir os dados do usuário?')
+        if (opcao == true) {
+
+            axios.delete(`http://localhost:3000/usuario/id/${props.id}`)
+                .then(function (response) {
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+            setShow(false)
+
+            alert('Dados excluidos')
+
+        } else {
+            alert('Os dados não foram excluídos')
+        }
+
+
+    }
 
     return (
         <div>
@@ -73,12 +85,13 @@ function ModalComponente(props) {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button type='submit' variant="primary" onClick={Editar}>
-                        Salvar
-                    </Button>
+                    <form action="" className='modalOpcoes'>
+                        <button className='editar' type='submit' onClick={Editar}>Salvar alterações</button>
+                        <button className='excluir' type='submit' onClick={Excluir}>Excluir usuário</button>
+                    </form>
                 </Modal.Footer>
             </Modal>
-        </div>
+        </div >
     );
 }
 
