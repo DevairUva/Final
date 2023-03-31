@@ -1,4 +1,4 @@
-# Projeto em grupo do Módulo 3 - AGAPT
+# Projeto em grupo do Módulo 6 - PROGRAMADORES CARIOCAS
 ### Integrantes do SQUAD
 - <a href="https://github.com/Ana21ah">Ana Clara</a> - Pessoa Gestora do Conhecimento
 - <a href="https://github.com/carolrc">Carolina Rocha</a> - Pessoa Co-Facilitadora
