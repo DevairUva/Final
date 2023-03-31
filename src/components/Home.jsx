@@ -12,6 +12,7 @@ import banner6 from '../assets/banner6.png'
 import banner3 from '../assets/banner3.png'
 import estudo from '../assets/estudo.png'
 import fundo from '../assets/fundo3.jpg'
+import program from '../assets/program.png'
 
 
 function Home() {
@@ -103,32 +104,19 @@ function Home() {
         </div>
       </div>
 
-      {/* <div className="background">
-        <div className="container marketing1">
-          <div className="alinhar">
-            <div className="col-md-7 order-md-2">
-              <h2 className="featurette-heading fw-normal hl-1 ">Projeto Programadores Cariocas selecionam alunos potenciais para o mercado.</h2>
-              <p className="lead">A empregabilidade de cursos como esse é de 80% e os salários iniciais giram em torno dos R$ 3 ou R$ 4 mil. A duração da capacitação é de seis meses e a Prefeitura oferece auxílio para incentivar os jovens a concluírem o treinamento.</p>
-            </div>
-            <div className="col-md-5 d-flex justify-content-center">
-              <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
-            </div>
+      <div className='background'>
+        <div className="alinhar">
+          <div className='infoHome'>
+            <br /><br /><br />
+            <p className='px50'>Senac RJ capacita 1090 jovens do Programadores Cariocas.</p>
+            <p className='px20'>O curso de programação será realizado pelo Senac RJ com uso da metodologia da Resilia Educação, edTech que oferece soluções de aprendizagem para o mercado digital com aulas práticas e projetos desenhados para capacitar estudantes para as necessidades do mundo do trabalho, tanto na área comportamental, as famosas soft skills, quanto na parte técnica. 
+</p>
+          </div>
+          <div>
+            <img width="350" height="350" src={program} />
           </div>
         </div>
       </div>
-
-      <div class="container marketing2">
-        <div class="featurette-divider" />
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Senac RJ capacita 1090 jovens do Programadores Cariocas.</h2>
-            <p class="lead2">O Senac RJ irá capacitar 1090 alunos do Programadores Cariocas, iniciativa da Prefeitura do Rio, por meio da Secretaria Municipal de Desenvolvimento Econômico, Inovação e Simplificação (SMDEIS), que visa qualificar prioritariamente mulheres, negros, pessoas trans e refugiados na área de Tecnologia da Informação.</p>
-          </div>
-          <div className="col-md-5">
-            <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src={estudo} alt="" />
-          </div>
-        </div>
-      </div> */}
 
       <h1 className='tdCentroAzul'>Dê um Play nessa ideia</h1>
       <div className="video" >
