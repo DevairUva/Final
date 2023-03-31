@@ -47,7 +47,7 @@
 - O projeto também pode ser executado em servidor local, baixando uma cópia dos arquivos nos repositórios, acessando os links <https://github.com/DevairUva/Final> e <https://github.com/DevairUva/finalBack>.
 - Após o download e a inicialização, será necessário utilizar os comandos a seguir no terminal.
 >npm install<br>
->npm run dev
+>npm start
 - O servidor local será iniciado no navegador.
 ##
 # Programadores Cariocas
