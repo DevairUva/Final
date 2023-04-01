@@ -34,7 +34,7 @@
 > [/NovoUsuario](https://github.com/DevairUva/Final/tree/main/src/components/novousuario.jsx)
 > [/Pesquisa](https://github.com/DevairUva/Final/tree/main/src/components/pesquisa.jsx)
 > [/Teste](https://github.com/DevairUva/Final/tree/main/src/components/teste.jsx)
-- Cada rota conta com entidades pré definidas e cada uma delas conta com dois ou mais atributos.
+- Cada rota conta com um componente pré definido.
 <img src="/README/rotas.jpeg">
 
 ##
