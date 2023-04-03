@@ -29,10 +29,10 @@
 > [/Home](https://github.com/DevairUva/Final/#/)<br>
 > [/Admim](https://github.com/DevairUva/Final/tree/main/src/components/admim.jsx)<br>
 > [/Inscricao](https://github.com/DevairUva/Final/tree/main/src/components/inscricao.jsx)<br>
-> [/Login](https://github.com/DevairUva/Final/tree/main/src/components/login.jsx)
-> [/Nos](https://github.com/DevairUva/Final/tree/main/src/components/nos.jsx)
-> [/NovoUsuario](https://github.com/DevairUva/Final/tree/main/src/components/novousuario.jsx)
-> [/Pesquisa](https://github.com/DevairUva/Final/tree/main/src/components/pesquisa.jsx)
+> [/Login](https://github.com/DevairUva/Final/tree/main/src/components/login.jsx)<br>
+> [/Nos](https://github.com/DevairUva/Final/tree/main/src/components/nos.jsx)<br>
+> [/NovoUsuario](https://github.com/DevairUva/Final/tree/main/src/components/novousuario.jsx)<br>
+> [/Pesquisa](https://github.com/DevairUva/Final/tree/main/src/components/pesquisa.jsx)<br>
 > [/Teste](https://github.com/DevairUva/Final/tree/main/src/components/teste.jsx)
 - Cada rota conta com um componente pré definido.
 <img src="/README/rotas.jpeg">
